@@ -37,7 +37,7 @@
 
     Dropdown1 As dropdown:
         Height: =52
-        Items: =DropDownSample
+        Items: =Distinct('Material Data', material)
         Size: =18
         Width: =263
         X: =51
@@ -46,7 +46,7 @@
 
     Dropdown1_1 As dropdown:
         Height: =52
-        Items: =DropDownSample
+        Items: =Distinct('Material Data', dieAngle)
         Size: =18
         Width: =263
         X: =51
@@ -55,7 +55,7 @@
 
     Dropdown1_2 As dropdown:
         Height: =53
-        Items: =DropDownSample
+        Items: =Distinct('Material Data', thick)
         Size: =18
         Width: =691
         X: =51
@@ -64,7 +64,7 @@
 
     Dropdown1_3 As dropdown:
         Height: =52
-        Items: =DropDownSample
+        Items: =Distinct('Material Data', brand)
         Size: =18
         Width: =263
         X: =479
@@ -73,7 +73,7 @@
 
     Dropdown1_4 As dropdown:
         Height: =52
-        Items: =DropDownSample
+        Items: =Distinct('Material Data', dieAperture)
         Size: =18
         Width: =263
         X: =479
@@ -123,4 +123,31 @@
         X: =51
         Y: =361
         ZIndex: =14
+
+    Label2_5 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Final Angle Goal [deg]"
+        Width: =315
+        X: =51
+        Y: =549
+        ZIndex: =15
+
+    Label2_6 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Die Offset [in]"
+        Width: =263
+        X: =479
+        Y: =549
+        ZIndex: =16
+
+    Label2_7 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Blade Depth [in]"
+        Width: =263
+        X: =51
+        Y: =665
+        ZIndex: =17
 

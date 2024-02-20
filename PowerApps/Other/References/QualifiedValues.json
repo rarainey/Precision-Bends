@@ -6,6 +6,13 @@
       "Values": {
         "Information": "85ce87cb-3d0f-4fd9-9b08-b66b9bccbb2e"
       }
+    },
+    {
+      "Kind": "default.cds_cr33a_materialdata_forms",
+      "Namespace": "Material Data_1 (Forms)",
+      "Values": {
+        "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
+      }
     }
   ]
 }
