@@ -246,3 +246,13 @@
         Y: =983
         ZIndex: =32
 
+    Label3 As label:
+        Height: =43
+        Italic: =true
+        Size: =20
+        Text: ="Correction Factor [in]"
+        Width: =315
+        X: =51
+        Y: =1063
+        ZIndex: =33
+
