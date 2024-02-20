@@ -73,7 +73,9 @@
 
     Dropdown1_4 As dropdown:
         Height: =52
-        Items: =Distinct('Material Data', dieAperture)
+        Items: |-
+            =Distinct('Material Data', 
+            dieAperture)
         Size: =18
         Width: =263
         X: =479
