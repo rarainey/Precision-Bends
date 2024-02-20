@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_4.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_4.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.ComboBox1_4"
+                "type": "'Zach Design'.Dropdown1"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.ComboBox1_1"
+                "type": "'Zach Design'.Dropdown1_1"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_2.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_2.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.ComboBox1_2"
+                "type": "'Zach Design'.Dropdown1_2"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.ComboBox1_3"
+                "type": "'Zach Design'.Dropdown1_3"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.ComboBox1"
+                "type": "'Zach Design'.Dropdown1_4"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_5.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_5.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.ComboBox1_5"
+                "type": "'Zach Design'.TextInput1"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_6.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.TextInput1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_6.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.TextInput1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.ComboBox1_6"
+                "type": "'Zach Design'.TextInput1_1"
               }
             }
           ],
@@ -224,19 +224,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_7.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.TextInput1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.ComboBox1_7.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.TextInput1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.ComboBox1_7"
+                "type": "'Zach Design'.TextInput1_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Zach Design'.TextInput1_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Zach Design'.TextInput1_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Zach Design",
+                "type": "'Zach Design'.TextInput1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Zach Design'.Dropdown1_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Zach Design",
+                "type": "'Zach Design'.Dropdown1_5"
               }
             }
           ],

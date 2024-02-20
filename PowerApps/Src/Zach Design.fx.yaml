@@ -20,9 +20,9 @@
     Rectangle2_2 As rectangle:
         BorderColor: =RGBA(219, 219, 219, 1)
         Fill: =RGBA(219, 219, 219, 1)
-        Height: =312
+        Height: =325
         Width: =794
-        Y: =810
+        Y: =798
         ZIndex: =3
 
     Label1 As label:
@@ -47,7 +47,7 @@
         Italic: =true
         Size: =24
         Text: ="Brand"
-        X: =479
+        X: =427
         Y: =127
         ZIndex: =11
 
@@ -65,8 +65,8 @@
         Size: =24
         Text: ="Die Aperture [in]"
         Width: =263
-        X: =479
-        Y: =243
+        X: =427
+        Y: =244
         ZIndex: =13
 
     Label2_4 As label:
@@ -85,7 +85,7 @@
         Text: ="Final Angle Goal [deg]"
         Width: =315
         X: =51
-        Y: =549
+        Y: =516
         ZIndex: =15
 
     Label2_6 As label:
@@ -93,8 +93,8 @@
         Size: =24
         Text: ="Die Offset [in]"
         Width: =263
-        X: =479
-        Y: =549
+        X: =427
+        Y: =516
         ZIndex: =16
 
     Label2_7 As label:
@@ -103,87 +103,146 @@
         Text: ="Blade Depth [in]"
         Width: =263
         X: =51
-        Y: =665
+        Y: =650
         ZIndex: =17
 
-    ComboBox1 As combobox:
-        DisplayFields: =["cr33a_material"]
-        Height: =60
-        IsSearchable: =false
-        Items: =Distinct(Filter('Material Data', 'Material Data (Views)'.'Active Material Data'), material)
-        SearchFields: =["cr33a_material"]
-        SearchItems: =[]
-        SelectMultiple: =false
-        Size: =18
-        Width: =263
+    Dropdown1 As dropdown:
+        Height: =65
+        Items: =Distinct('Material Data', material)
+        Size: =20
+        Width: =315
         X: =51
-        Y: =167
+        Y: =176
         ZIndex: =18
 
-    ComboBox1_2 As combobox:
-        Height: =60
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1_2.SearchText,"Value1")
-        Size: =18
-        Width: =263
-        X: =479
-        Y: =167
+    Dropdown1_1 As dropdown:
+        Height: =65
+        Items: =Distinct('Material Data', brand)
+        Size: =20
+        Width: =315
+        X: =427
+        Y: =176
+        ZIndex: =19
+
+    Dropdown1_2 As dropdown:
+        Height: =65
+        Items: =Distinct('Material Data', dieAngle)
+        Size: =20
+        Width: =315
+        X: =51
+        Y: =293
         ZIndex: =20
 
-    ComboBox1_1 As combobox:
-        Height: =60
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1_1.SearchText,"Value1")
-        Size: =18
-        Width: =263
-        X: =51
-        Y: =287
+    Dropdown1_3 As dropdown:
+        Height: =65
+        Items: =Distinct('Material Data', dieAperture)
+        Size: =20
+        Width: =315
+        X: =427
+        Y: =293
         ZIndex: =21
 
-    ComboBox1_3 As combobox:
-        Height: =60
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1_3.SearchText,"Value1")
-        Size: =18
-        Width: =263
-        X: =479
-        Y: =287
+    Dropdown1_4 As dropdown:
+        Height: =65
+        Items: =Distinct('Material Data', thick)
+        Size: =20
+        Width: =691
+        X: =51
+        Y: =408
         ZIndex: =22
 
-    ComboBox1_4 As combobox:
-        Height: =60
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1_4.SearchText,"Value1")
-        Width: =263
+    TextInput1 As text:
+        Default: =""
+        Format: =TextFormat.Number
+        Height: =65
+        Width: =315
         X: =51
-        Y: =597
+        Y: =561
         ZIndex: =23
 
-    ComboBox1_5 As combobox:
-        Height: =60
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1_5.SearchText,"Value1")
-        Width: =263
-        X: =479
-        Y: =597
+    TextInput1_1 As text:
+        Default: =""
+        Format: =TextFormat.Number
+        Height: =65
+        Width: =315
+        X: =427
+        Y: =565
         ZIndex: =24
 
-    ComboBox1_6 As combobox:
-        Height: =60
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1_6.SearchText,"Value1")
-        Size: =18
-        Width: =263
+    Rectangle3 As rectangle:
+        BorderThickness: =2
+        Fill: =RGBA(154, 215, 165, 1)
+        Height: =65
+        Width: =315
         X: =51
-        Y: =399
+        Y: =701
         ZIndex: =25
 
-    ComboBox1_7 As combobox:
-        Height: =60
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1_7.SearchText,"Value1")
-        Width: =263
-        X: =51
-        Y: =714
+    Button1 As button:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(53, 176, 74, 1)
+        Height: =116
+        Size: =25
+        Text: ="Calculate"
+        Width: =315
+        X: =427
+        Y: =650
         ZIndex: =26
+
+    Label2_8 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Check Angle [deg]"
+        Width: =315
+        X: =51
+        Y: =810
+        ZIndex: =27
+
+    TextInput1_2 As text:
+        Default: =""
+        Format: =TextFormat.Number
+        Height: =65
+        Width: =315
+        X: =51
+        Y: =855
+        ZIndex: =28
+
+    Label2_9 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Measured Angle [deg]"
+        Width: =315
+        X: =51
+        Y: =938
+        ZIndex: =29
+
+    TextInput1_3 As text:
+        Default: =""
+        Format: =TextFormat.Number
+        Height: =65
+        Width: =315
+        X: =51
+        Y: =983
+        ZIndex: =30
+
+    Dropdown1_5 As dropdown:
+        Height: =65
+        Items: =["15 sec", "5 min", "1 hour", "5 days"]
+        Size: =20
+        Width: =315
+        X: =427
+        Y: =855
+        ZIndex: =31
+
+    Button1_1 As button:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(154, 215, 165, 1)
+        Height: =65
+        Size: =25
+        Text: ="Calibrate"
+        Width: =315
+        X: =427
+        Y: =983
+        ZIndex: =32
 

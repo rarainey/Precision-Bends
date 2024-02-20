@@ -1,11 +1,11 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "cr33a_materialdata1s",
+    "EntitySetName": "cr33a_materialdatas",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "cr33a_materialdata1",
+    "LogicalName": "cr33a_materialdata",
     "MaxGetRowsCount": 500,
     "Name": "Material Data",
     "NativeCDSDataSourceInfoNameMapping": {
@@ -19,13 +19,15 @@
       "cr33a_hour1": "hour1",
       "cr33a_id": "id",
       "cr33a_material": "material",
-      "cr33a_materialdata1_AsyncOperations": "System Jobs",
-      "cr33a_materialdata1_BulkDeleteFailures": "Bulk Delete Failures",
-      "cr33a_materialdata1_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
-      "cr33a_materialdata1_PrincipalObjectAttributeAccesses": "Field Sharing",
-      "cr33a_materialdata1_ProcessSession": "Process Sessions",
-      "cr33a_materialdata1_SyncErrors": "Sync Errors",
-      "cr33a_materialdata1id": "Material Data",
+      "cr33a_materialdata_AsyncOperations": "System Jobs",
+      "cr33a_materialdata_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr33a_materialdata_DuplicateBaseRecord": "Duplicate Records (cr33a_materialdata_DuplicateBaseRecord)",
+      "cr33a_materialdata_DuplicateMatchingRecord": "Duplicate Records (cr33a_materialdata_DuplicateMatchingRecord)",
+      "cr33a_materialdata_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr33a_materialdata_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr33a_materialdata_ProcessSession": "Process Sessions",
+      "cr33a_materialdata_SyncErrors": "Sync Errors",
+      "cr33a_materialdataid": "Material Data",
       "cr33a_min5": "min5",
       "cr33a_sec15": "sec15",
       "cr33a_thickness": "thick",
@@ -51,21 +53,21 @@
   },
   {
     "DisplayName": "Material Data (Views)",
-    "Name": "_cr33a_materialdata1_views",
+    "Name": "_cr33a_materialdata_views",
     "RelatedEntityName": "Material Data",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "1cb35866-214f-4dd5-a721-611804861c5b": "Material Data Lookup View",
-      "4002eeca-4ae6-4d82-b8aa-4e9bc5e74a54": "Active Material Data",
-      "cd2e9276-a7fa-4e23-97bd-9483c6bffb6b": "Material Data Advanced Find View",
-      "d4d1eee6-c725-4e3d-880c-87b668101264": "Material Data Associated View",
-      "e9533f30-86ee-418c-ba9a-9d1a03e2b363": "Inactive Material Data"
+      "242157d9-1db8-4660-8553-3992966fde6f": "Material Data Associated View",
+      "25d14ac2-151b-4d30-96af-d7bf44fe34ee": "Active Material Data",
+      "5ffe9607-cc9b-46cc-8ef0-444cd3c1f85e": "Material Data Lookup View",
+      "645c00db-3ced-48d8-b27b-0f53d41e37cd": "Inactive Material Data",
+      "b63cfe3f-6388-4de3-93c4-b1704b93e565": "Material Data Advanced Find View"
     }
   },
   {
     "DisplayName": "Status (Material Data)",
-    "Name": "cr33a_materialdata1_statecode",
+    "Name": "cr33a_materialdata_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
       "1": "Inactive"
@@ -85,7 +87,7 @@
   },
   {
     "DisplayName": "Status Reason (Material Data)",
-    "Name": "cr33a_materialdata1_statuscode",
+    "Name": "cr33a_materialdata_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"
