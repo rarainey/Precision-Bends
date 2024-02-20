@@ -25,3 +25,102 @@
         Y: =810
         ZIndex: =3
 
+    Label1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =66
+        Size: =40
+        Text: ="Cold Form Setup Tool"
+        Width: =691
+        X: =51
+        Y: =19
+        ZIndex: =4
+
+    Dropdown1 As dropdown:
+        Height: =52
+        Items: =DropDownSample
+        Size: =18
+        Width: =263
+        X: =51
+        Y: =176
+        ZIndex: =5
+
+    Dropdown1_1 As dropdown:
+        Height: =52
+        Items: =DropDownSample
+        Size: =18
+        Width: =263
+        X: =51
+        Y: =292
+        ZIndex: =6
+
+    Dropdown1_2 As dropdown:
+        Height: =53
+        Items: =DropDownSample
+        Size: =18
+        Width: =691
+        X: =51
+        Y: =409
+        ZIndex: =7
+
+    Dropdown1_3 As dropdown:
+        Height: =52
+        Items: =DropDownSample
+        Size: =18
+        Width: =263
+        X: =479
+        Y: =176
+        ZIndex: =8
+
+    Dropdown1_4 As dropdown:
+        Height: =52
+        Items: =DropDownSample
+        Size: =18
+        Width: =263
+        X: =479
+        Y: =292
+        ZIndex: =9
+
+    Label2 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Material"
+        X: =51
+        Y: =127
+        ZIndex: =10
+
+    Label2_1 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Brand"
+        X: =479
+        Y: =127
+        ZIndex: =11
+
+    Label2_2 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Die Angle [deg]"
+        Width: =263
+        X: =51
+        Y: =243
+        ZIndex: =12
+
+    Label2_3 As label:
+        Italic: =true
+        Size: =24
+        Text: ="Die Aperture [in]"
+        Width: =263
+        X: =479
+        Y: =243
+        ZIndex: =13
+
+    Label2_4 As label:
+        Height: =38
+        Italic: =true
+        Size: =24
+        Text: ="Material Thickness [in] "
+        Width: =691
+        X: =51
+        Y: =361
+        ZIndex: =14
+
