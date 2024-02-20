@@ -20,8 +20,8 @@
     Rectangle2_2 As rectangle:
         BorderColor: =RGBA(219, 219, 219, 1)
         Fill: =RGBA(219, 219, 219, 1)
-        Height: =344
+        Height: =312
         Width: =794
-        Y: =779
+        Y: =810
         ZIndex: =3
 
