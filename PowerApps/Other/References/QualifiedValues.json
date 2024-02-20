@@ -6,6 +6,48 @@
       "Values": {
         "Information": "85ce87cb-3d0f-4fd9-9b08-b66b9bccbb2e"
       }
+    },
+    {
+      "Kind": "default.cds_cr33a_materialdata_forms",
+      "Namespace": "Material Data_1 (Forms)",
+      "Values": {
+        "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_materialdata_forms",
+      "Namespace": "Material Data (Forms)1",
+      "Values": {
+        "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_materialdata_forms",
+      "Namespace": "Material Data (Forms)2",
+      "Values": {
+        "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_materialdata1_forms",
+      "Namespace": "Material Data_1 (Forms)1",
+      "Values": {
+        "Information": "85ce87cb-3d0f-4fd9-9b08-b66b9bccbb2e"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_materialdata_forms",
+      "Namespace": "Material Data (Forms)3",
+      "Values": {
+        "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_materialdata_forms",
+      "Namespace": "Material Data (Forms)4",
+      "Values": {
+        "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
+      }
     }
   ]
 }
