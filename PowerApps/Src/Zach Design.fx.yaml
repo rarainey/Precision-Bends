@@ -35,53 +35,6 @@
         Y: =19
         ZIndex: =4
 
-    Dropdown1 As dropdown:
-        Height: =52
-        Items: =Distinct('Material Data', material)
-        Size: =18
-        Width: =263
-        X: =51
-        Y: =176
-        ZIndex: =5
-
-    Dropdown1_1 As dropdown:
-        Height: =52
-        Items: =Distinct('Material Data', dieAngle)
-        Size: =18
-        Width: =263
-        X: =51
-        Y: =292
-        ZIndex: =6
-
-    Dropdown1_2 As dropdown:
-        Height: =53
-        Items: =Distinct('Material Data', thick)
-        Size: =18
-        Width: =691
-        X: =51
-        Y: =409
-        ZIndex: =7
-
-    Dropdown1_3 As dropdown:
-        Height: =52
-        Items: =Distinct('Material Data', brand)
-        Size: =18
-        Width: =263
-        X: =479
-        Y: =176
-        ZIndex: =8
-
-    Dropdown1_4 As dropdown:
-        Height: =52
-        Items: |-
-            =Distinct('Material Data', 
-            dieAperture)
-        Size: =18
-        Width: =263
-        X: =479
-        Y: =292
-        ZIndex: =9
-
     Label2 As label:
         Italic: =true
         Size: =24
@@ -152,4 +105,85 @@
         X: =51
         Y: =665
         ZIndex: =17
+
+    ComboBox1 As combobox:
+        DisplayFields: =["cr33a_material"]
+        Height: =60
+        IsSearchable: =false
+        Items: =Distinct(Filter('Material Data', 'Material Data (Views)'.'Active Material Data'), material)
+        SearchFields: =["cr33a_material"]
+        SearchItems: =[]
+        SelectMultiple: =false
+        Size: =18
+        Width: =263
+        X: =51
+        Y: =167
+        ZIndex: =18
+
+    ComboBox1_2 As combobox:
+        Height: =60
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_2.SearchText,"Value1")
+        Size: =18
+        Width: =263
+        X: =479
+        Y: =167
+        ZIndex: =20
+
+    ComboBox1_1 As combobox:
+        Height: =60
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_1.SearchText,"Value1")
+        Size: =18
+        Width: =263
+        X: =51
+        Y: =287
+        ZIndex: =21
+
+    ComboBox1_3 As combobox:
+        Height: =60
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_3.SearchText,"Value1")
+        Size: =18
+        Width: =263
+        X: =479
+        Y: =287
+        ZIndex: =22
+
+    ComboBox1_4 As combobox:
+        Height: =60
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_4.SearchText,"Value1")
+        Width: =263
+        X: =51
+        Y: =597
+        ZIndex: =23
+
+    ComboBox1_5 As combobox:
+        Height: =60
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_5.SearchText,"Value1")
+        Width: =263
+        X: =479
+        Y: =597
+        ZIndex: =24
+
+    ComboBox1_6 As combobox:
+        Height: =60
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_6.SearchText,"Value1")
+        Size: =18
+        Width: =263
+        X: =51
+        Y: =399
+        ZIndex: =25
+
+    ComboBox1_7 As combobox:
+        Height: =60
+        Items: =ComboBoxSample
+        SearchItems: =Search(ComboBoxSample,ComboBox1_7.SearchText,"Value1")
+        Width: =263
+        X: =51
+        Y: =714
+        ZIndex: =26
 

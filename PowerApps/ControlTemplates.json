@@ -13,19 +13,19 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "dropdown": {
+  "combobox": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/dropdown",
+    "Id": "http://microsoft.com/appmagic/combobox",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "dropdown",
+    "Name": "combobox",
     "OverridableProperties": {},
-    "Version": "2.3.1"
+    "Version": "2.4.0"
   },
   "groupContainer": {
     "FirstParty": true,
