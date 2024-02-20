@@ -1,0 +1,27 @@
+"'Zach Design' As screen.'copilotAppSinglePage_ver1.0'":
+    Height: =1123
+    Width: =794
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Fill: =RGBA(50, 86, 160, 1)
+        Height: =119
+        Width: =794
+        ZIndex: =1
+
+    Rectangle2_1 As rectangle:
+        BorderColor: =RGBA(0, 121, 187, 1)
+        Fill: =RGBA(167, 182, 203, 1)
+        Height: =374
+        Width: =794
+        Y: =119
+        ZIndex: =2
+
+    Rectangle2_2 As rectangle:
+        BorderColor: =RGBA(219, 219, 219, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =344
+        Width: =794
+        Y: =779
+        ZIndex: =3
+

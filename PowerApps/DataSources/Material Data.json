@@ -64,7 +64,7 @@
     }
   },
   {
-    "DisplayName": "Status (Material Data)_1",
+    "DisplayName": "Status (Material Data)",
     "Name": "cr33a_materialdata1_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
@@ -84,7 +84,7 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Material Data)_1",
+    "DisplayName": "Status Reason (Material Data)",
     "Name": "cr33a_materialdata1_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
