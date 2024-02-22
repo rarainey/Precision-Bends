@@ -14,6 +14,7 @@
       "cr33a_material": "Material",
       "cr33a_newtable_AsyncOperations": "System Jobs",
       "cr33a_newtable_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr33a_newtable_cr33a_newtable_cr33a_Step": "Steps",
       "cr33a_newtable_DuplicateBaseRecord": "Duplicate Records (cr33a_newtable_DuplicateBaseRecord)",
       "cr33a_newtable_DuplicateMatchingRecord": "Duplicate Records (cr33a_newtable_DuplicateMatchingRecord)",
       "cr33a_newtable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",

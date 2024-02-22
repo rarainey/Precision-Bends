@@ -1,4 +1,4 @@
-"Screen2 As screen.'copilotAppSinglePage_ver1.0'":
+"'Product Screen' As screen.'copilotAppSinglePage_ver1.0'":
 
     ScreenContainer2 As groupContainer.verticalAutoLayoutContainer:
         DropShadow: =DropShadow.None
@@ -55,7 +55,7 @@
 
             SidebarContainer2 As groupContainer.verticalAutoLayoutContainer:
                 Fill: =RGBA(255, 255, 255, 1)
-                FillPortions: =If(And(Screen2.Size = ScreenSize.Small, Or(newMode, editMode, itemSelected)), 0, 3)
+                FillPortions: =If(And('Product Screen'.Size = ScreenSize.Small, Or(newMode, editMode, itemSelected)), 0, 3)
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutGap: =10
                 LayoutMinHeight: =100
@@ -64,7 +64,7 @@
                 PaddingLeft: =16
                 PaddingRight: =16
                 PaddingTop: =10
-                Visible: =If(And(Screen2.Size = ScreenSize.Small, Or(newMode, editMode, itemSelected)), false, true)
+                Visible: =If(And('Product Screen'.Size = ScreenSize.Small, Or(newMode, editMode, itemSelected)), false, true)
                 ZIndex: =5
 
                 SearchContainer2 As groupContainer.horizontalAutoLayoutContainer:
@@ -231,7 +231,7 @@
                 PaddingLeft: =2
                 PaddingRight: =2
                 PaddingTop: =2
-                Visible: =If(Or(deleteMode, And(Screen2.Size = ScreenSize.Small, !newMode, !editMode, !itemSelected)), false, true)
+                Visible: =If(Or(deleteMode, And('Product Screen'.Size = ScreenSize.Small, !newMode, !editMode, !itemSelected)), false, true)
                 Width: =0
                 ZIndex: =14
 
@@ -255,7 +255,7 @@
                         PaddingRight: =12
                         PaddingTop: =12
                         TabIndex: =0
-                        Visible: =If(Screen2.Size = ScreenSize.Small, And(!editMode, !newMode, !deleteMode), false)
+                        Visible: =If('Product Screen'.Size = ScreenSize.Small, And(!editMode, !newMode, !deleteMode), false)
                         Width: =50
                         ZIndex: =16
 

@@ -3,10 +3,6 @@
   "EntityName": "Steps",
   "environmentVariableName": "",
   "InstanceUrl": "https://orga1cf7c09.crm.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "cr33a_steps",
-    "logicalName": "cr33a_step"
-  },
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://orga1cf7c09.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr33a_step')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",

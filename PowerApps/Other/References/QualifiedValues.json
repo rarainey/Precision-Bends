@@ -8,6 +8,18 @@
       }
     },
     {
+      "Kind": "default.cds_cr33a_newtable_forms",
+      "Namespace": "Products (Forms)",
+      "Values": {
+        "Information": "81d11508-05bd-4ebc-a5bf-b490ce9b5a33"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_step_forms",
+      "Namespace": "Steps (Forms)",
+      "Values": {}
+    },
+    {
       "Kind": "default.cds_cr33a_materialdata1_forms",
       "Namespace": "Material Data (Forms)1",
       "Values": {
@@ -55,18 +67,6 @@
       "Values": {
         "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
       }
-    },
-    {
-      "Kind": "default.cds_cr33a_newtable_forms",
-      "Namespace": "Products (Forms)",
-      "Values": {
-        "Information": "81d11508-05bd-4ebc-a5bf-b490ce9b5a33"
-      }
-    },
-    {
-      "Kind": "default.cds_cr33a_step_forms",
-      "Namespace": "Steps (Forms)",
-      "Values": {}
     }
   ]
 }
