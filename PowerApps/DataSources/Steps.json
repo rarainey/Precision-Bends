@@ -1,0 +1,75 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr33a_steps",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr33a_step",
+    "MaxGetRowsCount": 500,
+    "Name": "Steps",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "cr33a_stepid": "Step",
+      "cr33a_stepnum": "Step num",
+      "createdon": "Created On",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedon": "Modified On",
+      "overriddencreatedon": "Record Created On",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Steps",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Steps (Views)",
+    "Name": "_cr33a_step_views",
+    "RelatedEntityName": "Steps",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {}
+  },
+  {
+    "DisplayName": "Status (Steps)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_803a4948ec_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Steps"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Steps",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Steps)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_803a4948ec_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Steps"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Steps",
+    "Type": "OptionSetInfo"
+  }
+]

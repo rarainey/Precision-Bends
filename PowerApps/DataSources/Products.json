@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr33a_newtables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr33a_newtable",
+    "MaxGetRowsCount": 500,
+    "Name": "Products",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr33a_brand": "Brand",
+      "cr33a_material": "Material",
+      "cr33a_newtable_AsyncOperations": "System Jobs",
+      "cr33a_newtable_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr33a_newtable_DuplicateBaseRecord": "Duplicate Records (cr33a_newtable_DuplicateBaseRecord)",
+      "cr33a_newtable_DuplicateMatchingRecord": "Duplicate Records (cr33a_newtable_DuplicateMatchingRecord)",
+      "cr33a_newtable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr33a_newtable_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr33a_newtable_ProcessSession": "Process Sessions",
+      "cr33a_newtable_SyncErrors": "Sync Errors",
+      "cr33a_newtableid": "New table",
+      "cr33a_product": "Product",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Products",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Products (Views)",
+    "Name": "_cr33a_newtable_views",
+    "RelatedEntityName": "Products",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1eb48dfe-4b0e-484b-a59e-81e0e9929641": "New table Advanced Find View",
+      "767aad31-4f77-49e7-963b-260462b9844a": "Active New tables",
+      "7925d579-2d20-4275-832e-d0840ae1d431": "Inactive New tables",
+      "be0ce3f4-c3c0-4f82-bab1-6efd554b1f56": "New table Lookup View",
+      "eca667b5-8c38-483f-9d25-a16e44c79181": "New table Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Products)",
+    "Name": "cr33a_newtable_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Products"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Products",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Products)",
+    "Name": "cr33a_newtable_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Products"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Products",
+    "Type": "OptionSetInfo"
+  }
+]
