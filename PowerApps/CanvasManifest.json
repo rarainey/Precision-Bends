@@ -87,6 +87,7 @@
       "rtlsupport": false,
       "showclassicthemes": false,
       "smartemaildatacard": false,
+      "sqlstoredprocedureenabled": false,
       "supportcolumnnamesasidentifiers": false,
       "tabledoesntwraprecords": true,
       "usedisplaynamemetadata": true,

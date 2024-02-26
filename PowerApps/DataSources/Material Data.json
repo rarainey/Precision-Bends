@@ -21,8 +21,6 @@
       "cr33a_material": "material",
       "cr33a_materialdata_AsyncOperations": "System Jobs",
       "cr33a_materialdata_BulkDeleteFailures": "Bulk Delete Failures",
-      "cr33a_materialdata_DuplicateBaseRecord": "Duplicate Records (cr33a_materialdata_DuplicateBaseRecord)",
-      "cr33a_materialdata_DuplicateMatchingRecord": "Duplicate Records (cr33a_materialdata_DuplicateMatchingRecord)",
       "cr33a_materialdata_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
       "cr33a_materialdata_PrincipalObjectAttributeAccesses": "Field Sharing",
       "cr33a_materialdata_ProcessSession": "Process Sessions",
@@ -58,11 +56,11 @@
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "242157d9-1db8-4660-8553-3992966fde6f": "Material Data Associated View",
-      "25d14ac2-151b-4d30-96af-d7bf44fe34ee": "Active Material Data",
-      "5ffe9607-cc9b-46cc-8ef0-444cd3c1f85e": "Material Data Lookup View",
-      "645c00db-3ced-48d8-b27b-0f53d41e37cd": "Inactive Material Data",
-      "b63cfe3f-6388-4de3-93c4-b1704b93e565": "Material Data Advanced Find View"
+      "0850d10f-eeca-4c4a-9325-4a068836beac": "Active Material Data",
+      "4d436d24-1543-4511-9bdb-c681b34fb6be": "Inactive Material Data",
+      "6a0f5f50-051f-4f6d-802b-b977d3fc1c13": "Material Data Associated View",
+      "7ffcba7d-cb99-4e9a-9880-4afc6b160441": "Material Data Lookup View",
+      "86c241d6-fda3-478f-917e-11586a3deb82": "Material Data Advanced Find View"
     }
   },
   {
