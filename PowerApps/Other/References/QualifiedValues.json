@@ -67,6 +67,41 @@
       "Values": {
         "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
       }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)1",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)2",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)3",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)4",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)5",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
     }
   ]
 }

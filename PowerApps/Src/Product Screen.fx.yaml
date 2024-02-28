@@ -238,7 +238,7 @@
                 "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
-                    Items: =Filter(Steps,'ParentProduct' = RecordsGallery2.Selected.Product)
+                    Items: =Filter(Steps, Product.Product = RecordsGallery2.Selected.Product)
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
@@ -255,7 +255,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Text: =ThisItem.'Step num'
+                        Text: =ThisItem.'Step id'
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.TemplateWidth - 86
                         X: =16
