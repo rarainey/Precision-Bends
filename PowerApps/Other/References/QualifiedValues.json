@@ -1,8 +1,34 @@
 {
   "QualifiedValues": [
     {
-      "Kind": "default.cds_cr33a_materialdata1_forms",
+      "Kind": "default.cds_cr33a_materialdata_forms",
       "Namespace": "Material Data (Forms)",
+      "Values": {
+        "Information": "40fd5027-e761-447f-96c9-fca365773322"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable_forms",
+      "Namespace": "Products (Forms)",
+      "Values": {
+        "Information": "81d11508-05bd-4ebc-a5bf-b490ce9b5a33"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_step_forms",
+      "Namespace": "Steps (Forms)1",
+      "Values": {}
+    },
+    {
+      "Kind": "default.cds_cr33a_materialdata1_forms",
+      "Namespace": "Material Data (Forms)1",
       "Values": {
         "Information": "85ce87cb-3d0f-4fd9-9b08-b66b9bccbb2e"
       }
@@ -16,7 +42,7 @@
     },
     {
       "Kind": "default.cds_cr33a_materialdata_forms",
-      "Namespace": "Material Data (Forms)1",
+      "Namespace": "Material Data (Forms)11",
       "Values": {
         "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
       }
@@ -47,6 +73,41 @@
       "Namespace": "Material Data (Forms)4",
       "Values": {
         "Information": "fead3660-57ee-4806-82f6-889a8874fd5b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)11",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)2",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)3",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)4",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_newtable1_forms",
+      "Namespace": "Steps (Forms)5",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
       }
     }
   ]

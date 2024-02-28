@@ -1,34 +1,27 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "cr33a_materialdatas",
+    "EntitySetName": "cr33a_newtable1s",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "cr33a_materialdata",
+    "LogicalName": "cr33a_newtable1",
     "MaxGetRowsCount": 500,
-    "Name": "Material Data",
+    "Name": "Steps",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
-      "cr33a_bladetip": "bladeTip",
-      "cr33a_brand": "brand",
-      "cr33a_day5": "day5",
-      "cr33a_depth": "depth",
-      "cr33a_dieangle": "dieAngle",
-      "cr33a_dieaperture": "dieAperture",
-      "cr33a_hour1": "hour1",
-      "cr33a_id": "id",
-      "cr33a_material": "material",
-      "cr33a_materialdata_AsyncOperations": "System Jobs",
-      "cr33a_materialdata_BulkDeleteFailures": "Bulk Delete Failures",
-      "cr33a_materialdata_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
-      "cr33a_materialdata_PrincipalObjectAttributeAccesses": "Field Sharing",
-      "cr33a_materialdata_ProcessSession": "Process Sessions",
-      "cr33a_materialdata_SyncErrors": "Sync Errors",
-      "cr33a_materialdataid": "Material Data",
-      "cr33a_min5": "min5",
-      "cr33a_sec15": "sec15",
-      "cr33a_thickness": "thick",
+      "cr33a_newtable1_AsyncOperations": "System Jobs",
+      "cr33a_newtable1_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr33a_newtable1_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr33a_newtable1_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr33a_newtable1_ProcessSession": "Process Sessions",
+      "cr33a_newtable1_SyncErrors": "Sync Errors",
+      "cr33a_newtable1id": "New table",
+      "cr33a_ParentProduct": "Product",
+      "cr33a_ParProd": "ParProd",
+      "cr33a_stepnum": "Step id",
+      "cr33a_stepnumber": "Step number",
+      "cr33a_testangle": "Test angle",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -46,26 +39,26 @@
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
       "versionnumber": "Version Number"
     },
-    "PreferredName": "Material Data",
+    "PreferredName": "Steps",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "Material Data (Views)",
-    "Name": "_cr33a_materialdata_views",
-    "RelatedEntityName": "Material Data",
+    "DisplayName": "Steps (Views)",
+    "Name": "_cr33a_newtable1_views",
+    "RelatedEntityName": "Steps",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "0850d10f-eeca-4c4a-9325-4a068836beac": "Active Material Data",
-      "4d436d24-1543-4511-9bdb-c681b34fb6be": "Inactive Material Data",
-      "6a0f5f50-051f-4f6d-802b-b977d3fc1c13": "Material Data Associated View",
-      "7ffcba7d-cb99-4e9a-9880-4afc6b160441": "Material Data Lookup View",
-      "86c241d6-fda3-478f-917e-11586a3deb82": "Material Data Advanced Find View"
+      "174252a8-1518-4127-b8ff-c9b94c70612d": "New table Lookup View",
+      "483bcbf2-4251-4a9c-9ad6-cdf10f52bc6a": "New table Advanced Find View",
+      "587665e2-c10b-4fc4-9591-7d00506e3e2e": "Inactive New tables",
+      "bbb2b07f-e1ef-4c11-af01-64dbcad0e8a2": "Active New tables",
+      "d58c11a8-bfca-4a28-82d1-fae97e06fbad": "New table Associated View"
     }
   },
   {
-    "DisplayName": "Status (Material Data)",
-    "Name": "cr33a_materialdata_statecode",
+    "DisplayName": "Status (Steps)",
+    "Name": "cr33a_newtable1_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
       "1": "Inactive"
@@ -75,17 +68,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Material Data"
+        "OptionSetReferenceEntityName": "Steps"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Material Data",
+    "RelatedEntityName": "Steps",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Material Data)",
-    "Name": "cr33a_materialdata_statuscode",
+    "DisplayName": "Status Reason (Steps)",
+    "Name": "cr33a_newtable1_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"
@@ -95,12 +88,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Material Data"
+        "OptionSetReferenceEntityName": "Steps"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Material Data",
+    "RelatedEntityName": "Steps",
     "Type": "OptionSetInfo"
   }
 ]

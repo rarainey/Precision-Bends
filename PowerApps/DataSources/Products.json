@@ -1,34 +1,29 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "cr33a_materialdatas",
+    "EntitySetName": "cr33a_newtables",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "cr33a_materialdata",
+    "LogicalName": "cr33a_newtable",
     "MaxGetRowsCount": 500,
-    "Name": "Material Data",
+    "Name": "Products",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
-      "cr33a_bladetip": "bladeTip",
-      "cr33a_brand": "brand",
-      "cr33a_day5": "day5",
-      "cr33a_depth": "depth",
-      "cr33a_dieangle": "dieAngle",
-      "cr33a_dieaperture": "dieAperture",
-      "cr33a_hour1": "hour1",
-      "cr33a_id": "id",
-      "cr33a_material": "material",
-      "cr33a_materialdata_AsyncOperations": "System Jobs",
-      "cr33a_materialdata_BulkDeleteFailures": "Bulk Delete Failures",
-      "cr33a_materialdata_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
-      "cr33a_materialdata_PrincipalObjectAttributeAccesses": "Field Sharing",
-      "cr33a_materialdata_ProcessSession": "Process Sessions",
-      "cr33a_materialdata_SyncErrors": "Sync Errors",
-      "cr33a_materialdataid": "Material Data",
-      "cr33a_min5": "min5",
-      "cr33a_sec15": "sec15",
-      "cr33a_thickness": "thick",
+      "cr33a_brand": "Brand",
+      "cr33a_material": "Material",
+      "cr33a_newtable_AsyncOperations": "System Jobs",
+      "cr33a_newtable_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr33a_newtable_DuplicateBaseRecord": "Duplicate Records (cr33a_newtable_DuplicateBaseRecord)",
+      "cr33a_newtable_DuplicateMatchingRecord": "Duplicate Records (cr33a_newtable_DuplicateMatchingRecord)",
+      "cr33a_newtable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr33a_newtable_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr33a_newtable_ProcessSession": "Process Sessions",
+      "cr33a_newtable_SyncErrors": "Sync Errors",
+      "cr33a_newtable1_cr33a_ParentProduct_cr33a": "Steps (cr33a_newtable1_cr33a_ParentProduct_cr33a)",
+      "cr33a_newtable1_ParProd_cr33a_newtable": "Steps (cr33a_newtable1_ParProd_cr33a_newtable)",
+      "cr33a_newtableid": "New table",
+      "cr33a_product": "Product",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -46,26 +41,26 @@
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
       "versionnumber": "Version Number"
     },
-    "PreferredName": "Material Data",
+    "PreferredName": "Products",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "Material Data (Views)",
-    "Name": "_cr33a_materialdata_views",
-    "RelatedEntityName": "Material Data",
+    "DisplayName": "Products (Views)",
+    "Name": "_cr33a_newtable_views",
+    "RelatedEntityName": "Products",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "0850d10f-eeca-4c4a-9325-4a068836beac": "Active Material Data",
-      "4d436d24-1543-4511-9bdb-c681b34fb6be": "Inactive Material Data",
-      "6a0f5f50-051f-4f6d-802b-b977d3fc1c13": "Material Data Associated View",
-      "7ffcba7d-cb99-4e9a-9880-4afc6b160441": "Material Data Lookup View",
-      "86c241d6-fda3-478f-917e-11586a3deb82": "Material Data Advanced Find View"
+      "1eb48dfe-4b0e-484b-a59e-81e0e9929641": "New table Advanced Find View",
+      "767aad31-4f77-49e7-963b-260462b9844a": "Active New tables",
+      "7925d579-2d20-4275-832e-d0840ae1d431": "Inactive New tables",
+      "be0ce3f4-c3c0-4f82-bab1-6efd554b1f56": "New table Lookup View",
+      "eca667b5-8c38-483f-9d25-a16e44c79181": "New table Associated View"
     }
   },
   {
-    "DisplayName": "Status (Material Data)",
-    "Name": "cr33a_materialdata_statecode",
+    "DisplayName": "Status (Products)",
+    "Name": "cr33a_newtable_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
       "1": "Inactive"
@@ -75,17 +70,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Material Data"
+        "OptionSetReferenceEntityName": "Products"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Material Data",
+    "RelatedEntityName": "Products",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Material Data)",
-    "Name": "cr33a_materialdata_statuscode",
+    "DisplayName": "Status Reason (Products)",
+    "Name": "cr33a_newtable_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"
@@ -95,12 +90,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Material Data"
+        "OptionSetReferenceEntityName": "Products"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Material Data",
+    "RelatedEntityName": "Products",
     "Type": "OptionSetInfo"
   }
 ]
