@@ -15,8 +15,15 @@
       }
     },
     {
-      "Kind": "default.cds_cr33a_step_forms",
+      "Kind": "default.cds_cr33a_newtable1_forms",
       "Namespace": "Steps (Forms)",
+      "Values": {
+        "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr33a_step_forms",
+      "Namespace": "Steps (Forms)1",
       "Values": {}
     },
     {
@@ -70,7 +77,7 @@
     },
     {
       "Kind": "default.cds_cr33a_newtable1_forms",
-      "Namespace": "Steps (Forms)1",
+      "Namespace": "Steps (Forms)11",
       "Values": {
         "Information": "d7ec5e93-0c6a-49db-b23b-ff361629d05b"
       }

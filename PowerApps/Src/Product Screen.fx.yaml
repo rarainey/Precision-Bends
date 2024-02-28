@@ -235,19 +235,16 @@
                 Width: =0
                 ZIndex: =14
 
-                "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
-                    AlignInContainer: =AlignInContainer.SetByContainer
+                "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
                     DelayItemLoading: =true
-                    Items: =Filter(Steps, Product.Product = RecordsGallery2.Selected.Product)
+                    Items: =Filter(Steps, ParProd.Product = RecordsGallery2.Selected.Product)
                     Layout: =Layout.Vertical
-                    LayoutMinHeight: =287
-                    LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
-                    TemplateSize: =80
+                    TemplateSize: =90
                     ZIndex: =1
 
-                    Title4 As label:
+                    Title3 As label:
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                         Height: =Self.Size * 1.8
                         OnSelect: =Select(Parent)
@@ -255,42 +252,59 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Text: =ThisItem.'Step id'
+                        Text: |-
+                            =With( {x: ThisItem.'Step number'}, $"Step: {x}")
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.TemplateWidth - 86
                         X: =16
-                        Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                        Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
                         ZIndex: =1
 
-                    NextArrow4 As icon.ChevronRight:
+                    Subtitle2 As label:
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Self.Size * 1.8
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: |-
+                            =With( {x: ThisItem.'Test angle'}, $"Degrees: {x}")
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Title3.Width
+                        X: =Title3.X
+                        Y: =Title3.Y + Title3.Height
+                        ZIndex: =2
+
+                    NextArrow3 As icon.ChevronRight:
                         AccessibleLabel: =Self.Tooltip
                         Color: =RGBA(166, 166, 166, 1)
                         Height: =50
                         Icon: =Icon.ChevronRight
                         OnSelect: =Select(Parent)
-                        PaddingBottom: =12
-                        PaddingLeft: =12
-                        PaddingRight: =12
-                        PaddingTop: =12
+                        PaddingBottom: =16
+                        PaddingLeft: =16
+                        PaddingRight: =16
+                        PaddingTop: =16
                         Tooltip: ="View item details"
                         Width: =50
                         X: =Parent.TemplateWidth - Self.Width - 12
                         Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-                        ZIndex: =2
+                        ZIndex: =3
 
-                    Separator4 As rectangle:
+                    Separator3 As rectangle:
                         Height: =8
                         OnSelect: =Select(Parent)
                         Width: =Parent.TemplateWidth
                         Y: =Parent.TemplateHeight - Self.Height
-                        ZIndex: =3
+                        ZIndex: =4
 
-                    Rectangle6 As rectangle:
-                        Height: =Parent.TemplateHeight - Separator4.Height
+                    Rectangle5 As rectangle:
+                        Height: =Parent.TemplateHeight - Separator3.Height
                         OnSelect: =Select(Parent)
                         Visible: =ThisItem.IsSelected
                         Width: =4
-                        ZIndex: =4
+                        ZIndex: =5
 
                 SelectedRecordHeaderContainer2 As groupContainer.horizontalAutoLayoutContainer:
                     Fill: =RGBA(255, 255, 255, 1)
