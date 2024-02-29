@@ -35,7 +35,7 @@
         Y: =19
         ZIndex: =4
 
-    Label2 As label:
+    MaterialLabel As label:
         Italic: =true
         Size: =24
         Text: ="Material"
@@ -43,7 +43,7 @@
         Y: =127
         ZIndex: =10
 
-    Label2_1 As label:
+    BrandLabel As label:
         Italic: =true
         Size: =24
         Text: ="Brand"
@@ -51,7 +51,7 @@
         Y: =127
         ZIndex: =11
 
-    Label2_2 As label:
+    DieAngleLabel As label:
         Italic: =true
         Size: =24
         Text: ="Die Angle [deg]"
@@ -60,7 +60,7 @@
         Y: =243
         ZIndex: =12
 
-    Label2_3 As label:
+    DieApertureLabel As label:
         Italic: =true
         Size: =24
         Text: ="Die Aperture [in]"
@@ -69,7 +69,7 @@
         Y: =244
         ZIndex: =13
 
-    Label2_4 As label:
+    ThicknessLabel As label:
         Height: =38
         Italic: =true
         Size: =24
@@ -79,7 +79,7 @@
         Y: =361
         ZIndex: =14
 
-    Label2_5 As label:
+    FinalAngleLabel As label:
         Italic: =true
         Size: =24
         Text: ="Final Angle Goal [deg]"
@@ -88,7 +88,7 @@
         Y: =516
         ZIndex: =15
 
-    Label2_6 As label:
+    OffsetLabel As label:
         Italic: =true
         Size: =24
         Text: ="Die Offset [in]"
@@ -97,7 +97,7 @@
         Y: =516
         ZIndex: =16
 
-    Label2_7 As label:
+    DepthLabel As label:
         Italic: =true
         Size: =24
         Text: ="Blade Depth [in]"
@@ -106,7 +106,7 @@
         Y: =650
         ZIndex: =17
 
-    Dropdown1 As dropdown:
+    Material As dropdown:
         Height: =65
         Items: =Distinct('Material Data', material)
         Size: =20
@@ -115,7 +115,7 @@
         Y: =176
         ZIndex: =18
 
-    Dropdown1_1 As dropdown:
+    Brand As dropdown:
         Height: =65
         Items: =Distinct('Material Data', brand)
         Size: =20
@@ -124,7 +124,7 @@
         Y: =176
         ZIndex: =19
 
-    Dropdown1_2 As dropdown:
+    DieAngle As dropdown:
         Height: =65
         Items: =Distinct('Material Data', dieAngle)
         Size: =20
@@ -133,7 +133,7 @@
         Y: =293
         ZIndex: =20
 
-    Dropdown1_3 As dropdown:
+    DieAperture As dropdown:
         Height: =65
         Items: =Distinct('Material Data', dieAperture)
         Size: =20
@@ -142,7 +142,7 @@
         Y: =293
         ZIndex: =21
 
-    Dropdown1_4 As dropdown:
+    Thickness As dropdown:
         Height: =65
         Items: =Distinct('Material Data', thick)
         Size: =20
@@ -151,7 +151,7 @@
         Y: =408
         ZIndex: =22
 
-    TextInput1 As text:
+    FinalAngle As text:
         Default: =""
         Format: =TextFormat.Number
         Height: =65
@@ -160,7 +160,7 @@
         Y: =561
         ZIndex: =23
 
-    TextInput1_1 As text:
+    Offset As text:
         Default: =""
         Format: =TextFormat.Number
         Height: =65
@@ -169,7 +169,7 @@
         Y: =565
         ZIndex: =24
 
-    Rectangle3 As rectangle:
+    Depth As rectangle:
         BorderThickness: =2
         Fill: =RGBA(154, 215, 165, 1)
         Height: =65
@@ -178,7 +178,7 @@
         Y: =701
         ZIndex: =25
 
-    Button1 As button:
+    Calculate As button:
         BorderColor: =RGBA(0, 18, 107, 1)
         Fill: =RGBA(53, 176, 74, 1)
         Height: =116
@@ -189,7 +189,7 @@
         Y: =650
         ZIndex: =26
 
-    Label2_8 As label:
+    CheckAngleLabel As label:
         Italic: =true
         Size: =24
         Text: ="Check Angle [deg]"
@@ -198,7 +198,7 @@
         Y: =810
         ZIndex: =27
 
-    TextInput1_2 As text:
+    CheckAngle As text:
         Default: =""
         Format: =TextFormat.Number
         Height: =65
@@ -207,7 +207,7 @@
         Y: =855
         ZIndex: =28
 
-    Label2_9 As label:
+    MeasuredAngleLabel As label:
         Italic: =true
         Size: =24
         Text: ="Measured Angle [deg]"
@@ -216,7 +216,7 @@
         Y: =938
         ZIndex: =29
 
-    TextInput1_3 As text:
+    MeasuredAngle As text:
         Default: =""
         Format: =TextFormat.Number
         Height: =65
@@ -225,7 +225,7 @@
         Y: =983
         ZIndex: =30
 
-    Dropdown1_5 As dropdown:
+    TimeSelection As dropdown:
         Height: =65
         Items: =["15 sec", "5 min", "1 hour", "5 days"]
         Size: =20
@@ -234,7 +234,7 @@
         Y: =855
         ZIndex: =31
 
-    Button1_1 As button:
+    Calibrate As button:
         BorderColor: =RGBA(0, 18, 107, 1)
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(154, 215, 165, 1)
@@ -246,7 +246,7 @@
         Y: =983
         ZIndex: =32
 
-    Label3 As label:
+    CorrectionLabel As label:
         Height: =43
         Italic: =true
         Size: =20
