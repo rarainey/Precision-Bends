@@ -102,7 +102,7 @@
       "MetaDataIDKey": "",
       "Name": "Brand",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -410,7 +410,7 @@
       "MetaDataIDKey": "",
       "Name": "BrandLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -706,7 +706,7 @@
       "MetaDataIDKey": "",
       "Name": "Calculate",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 19,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1280,7 +1280,7 @@
       "MetaDataIDKey": "",
       "Name": "CheckAngle",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 24,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2760,7 +2760,7 @@
       "MetaDataIDKey": "",
       "Name": "DepthLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 18,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3045,7 +3045,7 @@
       "MetaDataIDKey": "",
       "Name": "DieAngle",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3346,7 +3346,7 @@
       "MetaDataIDKey": "",
       "Name": "DieAngleLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3631,7 +3631,7 @@
       "MetaDataIDKey": "",
       "Name": "DieAperture",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3932,7 +3932,7 @@
       "MetaDataIDKey": "",
       "Name": "DieApertureLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4785,7 +4785,7 @@
       "MetaDataIDKey": "",
       "Name": "Image1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5024,7 +5024,7 @@
       "MetaDataIDKey": "",
       "Name": "Label1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5302,7 +5302,7 @@
       "MetaDataIDKey": "",
       "Name": "Label5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 26,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5592,7 +5592,7 @@
       "MetaDataIDKey": "",
       "Name": "Label6",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 20,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5877,7 +5877,7 @@
       "MetaDataIDKey": "",
       "Name": "Material",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6178,7 +6178,7 @@
       "MetaDataIDKey": "",
       "Name": "MaterialLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6759,7 +6759,7 @@
       "MetaDataIDKey": "",
       "Name": "MeasuredAngleLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 25,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7717,7 +7717,7 @@
       "MetaDataIDKey": "",
       "Name": "Rectangle2_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8003,7 +8003,7 @@
       "MetaDataIDKey": "",
       "Name": "Thickness",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 13,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8304,7 +8304,7 @@
       "MetaDataIDKey": "",
       "Name": "ThicknessLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
