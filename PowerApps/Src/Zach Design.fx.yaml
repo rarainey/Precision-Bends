@@ -308,3 +308,26 @@
         Y: =1063
         ZIndex: =29
 
+    Label5 As label:
+        Size: =15
+        Text: ="After 15 seconds"
+        Visible: =! IsBlank(Brand.Selected.Value)
+        Width: =185
+        X: =314
+        Y: =816
+        ZIndex: =30
+
+    Label6 As label:
+        Color: =RGBA(168, 0, 0, 1)
+        Height: =32
+        Size: =12
+        Text: ="Angle must be between 10 and 180 degrees."
+        Visible: |-
+            =! IsBlank(Brand.Selected.Value)
+            And (Value(FinalAngle.Text) > 180 
+            Or Value(FinalAngle.Text) < 10)
+        Width: =343
+        X: =51
+        Y: =626
+        ZIndex: =31
+
