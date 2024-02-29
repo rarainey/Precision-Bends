@@ -176,7 +176,7 @@
         OnSelect: |-
             =Set(depth_var, (4.12954565894278 + (-1.8228847456701) * Thickness.Selected.Value + (-0.00381149445491119) * FinalAngle.Text + 0.776435302250028 * DieAperture.Selected.Value) - Offset.Text);
             
-            Set(correction, Blank())
+            Set(correction_var, Blank())
         Size: =25
         Text: ="Calculate"
         Width: =315
@@ -235,8 +235,8 @@
         Fill: =RGBA(154, 215, 165, 1)
         Height: =65
         OnSelect: |-
-            =Set(correction, 0.00358322023127228 * (MeasuredAngle.Text - CheckAngle.Text));
-            Set(depth_var, depth_var + correction)
+            =Set(correction_var, 0.00358322023127228 * (MeasuredAngle.Text - CheckAngle.Text));
+            Set(depth_var, depth_var + correction_var)
         Size: =25
         Text: ="Calibrate"
         Width: =315
@@ -254,7 +254,7 @@
         Y: =1063
         ZIndex: =33
 
-    Label3 As label:
+    Depth As label:
         Fill: =RGBA(154, 215, 165, 1)
         Height: =63
         Text: =depth_var
@@ -262,4 +262,14 @@
         X: =51
         Y: =699
         ZIndex: =34
+
+    Correction As label:
+        Align: =Align.Center
+        Height: =43
+        Size: =20
+        Text: =correction_var
+        Width: =315
+        X: =427
+        Y: =1063
+        ZIndex: =35
 
