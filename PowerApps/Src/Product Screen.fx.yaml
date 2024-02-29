@@ -236,9 +236,12 @@
                 ZIndex: =14
 
                 "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+                    AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
                     Items: =Filter(Steps, ParProd.Product = RecordsGallery2.Selected.Product)
                     Layout: =Layout.Vertical
+                    LayoutMinHeight: =287
+                    LayoutMinWidth: =320
                     LoadingSpinner: =LoadingSpinner.Data
                     TemplatePadding: =0
                     TemplateSize: =90
