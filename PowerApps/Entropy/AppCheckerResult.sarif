@@ -1184,36 +1184,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.option"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.option",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "option",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Product Screen'.deleteCancelled"
                 }
               ],

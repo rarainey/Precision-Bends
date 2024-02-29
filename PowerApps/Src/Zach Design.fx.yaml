@@ -115,7 +115,7 @@
 
     Material As dropdown:
         Height: =65
-        Items: =Distinct('Material Data', material)
+        Items: =Distinct(Filter('Material Data', brand = option), material)
         Size: =20
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
@@ -138,7 +138,7 @@
 
     DieAngle As dropdown:
         Height: =65
-        Items: =Distinct('Material Data', dieAngle)
+        Items: =Distinct(Filter('Material Data', brand = option), dieAngle)
         Size: =20
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
@@ -148,7 +148,7 @@
 
     DieAperture As dropdown:
         Height: =65
-        Items: =Distinct('Material Data', dieAperture)
+        Items: =Distinct(Filter('Material Data', brand = option), dieAperture)
         Size: =20
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
@@ -158,7 +158,7 @@
 
     Thickness As dropdown:
         Height: =65
-        Items: =Distinct('Material Data', thick)
+        Items: =Distinct(Filter('Material Data', brand = option), thick)
         Size: =20
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =691
@@ -295,7 +295,7 @@
         Fill: =RGBA(154, 215, 165, 1)
         Height: =63
         Size: =20
-        Text: =Round(depth_var, 2)
+        Text: =Round(depth_var, 3)
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
