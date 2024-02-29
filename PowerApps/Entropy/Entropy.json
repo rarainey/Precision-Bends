@@ -58,6 +58,7 @@
     "galleryTemplate2": 18,
     "galleryTemplate3": 28,
     "Host": 3,
+    "Image1": 132,
     "Label1": 64,
     "Label5": 88,
     "Label6": 82,
@@ -135,7 +136,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/29/2024 04:00:39",
+  "HeaderLastSavedDateTimeUTC": "02/29/2024 04:02:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -143,7 +144,7 @@
     "CD_Logo": "21aa8c6c-2fee-431a-95c0-f69596e7b826.png"
   },
   "LocalResourceRootPaths": {
-    "CD_Logo": "https://docserverpwaprodeus.blob.core.windows.net/30634cd5-2a60-49ce-945e-c3c12c2b6554-1/resource/Assets0Images021aa8c6c-2fee-431a-95c0-f69596e7b826.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-29T03%3A59%3A55Z&ske=2024-03-01T04%3A14%3A55Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-03-01T04%3A14%3A55Z&sr=b&sp=r&sig=Igia4%2BM1LP7ZdU%2FpvI1vdFMre%2BLOQn0Z9E0UJzK%2BnE4%3D"
+    "CD_Logo": "https://docserverpwaprodeus.blob.core.windows.net/b877a6b4-4731-4c78-a68a-20253ae0940d-1/resource/Assets0Images021aa8c6c-2fee-431a-95c0-f69596e7b826.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-29T04%3A00%3A54Z&ske=2024-03-01T04%3A15%3A54Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-03-01T04%3A15%3A54Z&sr=b&sp=r&sig=Fbtpl65nHnwWrdjlVTlSGwtKZfGgv1rPUqlpnjigDLQ%3D"
   },
   "OldLogoFileName": "35t5bk4w.jpg",
   "OrderComponentMetadata": {},
@@ -170,11 +171,12 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 7,
-    "dropdown": 8,
+    "dropdown": 9,
     "form": 6,
     "gallery": 5,
     "groupContainer": 0,
     "icon": 3,
+    "image": 8,
     "label": 1,
     "rectangle": 4,
     "text": 2
@@ -236,6 +238,7 @@
     "galleryTemplate2": {},
     "galleryTemplate3": {},
     "Host": {},
+    "Image1": {},
     "Label1": {},
     "Label5": {},
     "Label6": {},
@@ -370,6 +373,7 @@
     "galleryTemplate2": 41,
     "galleryTemplate3": 51,
     "Host": 0,
+    "Image1": 0,
     "Label1": 1,
     "Label5": 24,
     "Label6": 18,
@@ -452,7 +456,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.8847852,
+    "AnalysisLoadTime": 0.8250532,
     "ControlCount": {
       "button": 6,
       "dropdown": 5,
@@ -467,7 +471,7 @@
       "text": 10,
       "typedDataCard": 4
     },
-    "DeserializationLoadTime": 1.9413164
+    "DeserializationLoadTime": 1.9627553
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

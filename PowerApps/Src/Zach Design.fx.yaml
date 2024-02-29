@@ -307,6 +307,7 @@
         Height: =43
         Size: =20
         Text: =Round(correction_var, 3)
+        Visible: =! IsBlank(correction_var)
         Width: =315
         X: =427
         Y: =1063
@@ -334,4 +335,13 @@
         X: =51
         Y: =626
         ZIndex: =31
+
+    Image1 As image:
+        Height: =284
+        Image: =CD_Logo
+        Visible: =IsBlank(Brand.Selected.Value)
+        Width: =360
+        X: =216
+        Y: =500
+        ZIndex: =32
 
