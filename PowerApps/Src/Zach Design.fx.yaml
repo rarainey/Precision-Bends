@@ -127,6 +127,8 @@
         Default: =""
         Height: =65
         Items: =Distinct('Material Data', brand)
+        OnChange: =Set(option, Brand.Selected.Value)
+        OnSelect: =Set(option, Brand.Selected.Value)
         Size: =20
         Width: =315
         X: =51
