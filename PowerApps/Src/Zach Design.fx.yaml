@@ -358,6 +358,6 @@
             Or IsBlank(Offset.Text))
         Width: =343
         X: =427
-        Y: =630
+        Y: =623
         ZIndex: =33
 

@@ -734,19 +734,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.FinalAngle.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.Offset.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.FinalAngle.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.Offset.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.FinalAngle"
+                "type": "'Zach Design'.Offset"
               }
             }
           ],
@@ -764,19 +764,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.Offset.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.FinalAngle.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.Offset.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.FinalAngle.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.Offset"
+                "type": "'Zach Design'.FinalAngle"
               }
             }
           ],
