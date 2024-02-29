@@ -124,6 +124,7 @@
         ZIndex: =14
 
     Brand As dropdown:
+        Default: =""
         Height: =65
         Items: =Distinct('Material Data', brand)
         Size: =20

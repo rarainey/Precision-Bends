@@ -584,19 +584,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.Material.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.Brand.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.Material.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.Brand.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.Material"
+                "type": "'Zach Design'.Brand"
               }
             }
           ],
@@ -614,19 +614,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Zach Design'.Brand.AccessibleLabel"
+                  "fullyQualifiedName": "'Zach Design'.Material.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Zach Design'.Brand.AccessibleLabel",
+                  "fullyQualifiedName": "'Zach Design'.Material.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Zach Design",
-                "type": "'Zach Design'.Brand"
+                "type": "'Zach Design'.Material"
               }
             }
           ],
