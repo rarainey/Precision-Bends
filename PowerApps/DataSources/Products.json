@@ -10,8 +10,6 @@
     "Name": "Products",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
-      "cr33a_brand": "Brand",
-      "cr33a_material": "Material",
       "cr33a_newtable_AsyncOperations": "System Jobs",
       "cr33a_newtable_BulkDeleteFailures": "Bulk Delete Failures",
       "cr33a_newtable_DuplicateBaseRecord": "Duplicate Records (cr33a_newtable_DuplicateBaseRecord)",
@@ -23,6 +21,7 @@
       "cr33a_newtable1_cr33a_ParentProduct_cr33a": "Steps (cr33a_newtable1_cr33a_ParentProduct_cr33a)",
       "cr33a_newtable1_ParProd_cr33a_newtable": "Steps (cr33a_newtable1_ParProd_cr33a_newtable)",
       "cr33a_newtableid": "New table",
+      "cr33a_prodimg": "prodImg",
       "cr33a_product": "Product",
       "createdby": "Created By",
       "createdon": "Created On",

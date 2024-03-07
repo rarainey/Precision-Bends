@@ -14,6 +14,2313 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 53,
+                  "snippet": {
+                    "text": "\"cr33a_brand\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Search"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 53,
+                  "snippet": {
+                    "text": "\"cr33a_brand\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cr33a_brand"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColDNE-Name",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 67,
+                  "snippet": {
+                    "text": "\"cr33a_material\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cr33a_material"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColDNE-Name",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 100,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Search(Products, SearchInput2.Text, \"cr33a_product\", \"cr33a_brand\",\"cr33a_material\",\"cr33a_product\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Search"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "CurrentItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.galleryTemplate2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.galleryTemplate2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 49,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.galleryTemplate2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.galleryTemplate2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.galleryTemplate2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 60,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "UpdateContext({ itemSelected: true, CurrentItem: ThisItem })"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.galleryTemplate2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Rectangle4.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Rectangle4.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Rectangle4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Rectangle4.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Rectangle4.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Rectangle4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Product"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Title2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".cr33a_brand"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Subtitle1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".cr33a_material"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.SidebarContainer2.RecordsGallery2.Body1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 56,
+                  "snippet": {
+                    "text": ".Product"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Product"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 30,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 65,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Filter(Steps, ParProd.Product = RecordsGallery2.Selected.Product)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Rectangle5.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Rectangle5.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Rectangle5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Rectangle5.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Rectangle5.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Rectangle5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 10,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 18,
+                  "snippet": {
+                    "text": ".'Step number'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 44,
+                  "snippet": {
+                    "text": "x"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 35,
+                  "snippet": {
+                    "text": "$\"Step: {x}\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidStringInterpolation",
+          "ruleIndex": 10
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Title3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 10,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 18,
+                  "snippet": {
+                    "text": ".'Test angle'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 46,
+                  "snippet": {
+                    "text": "x"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 34,
+                  "snippet": {
+                    "text": "$\"Degrees: {x}\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidStringInterpolation",
+          "ruleIndex": 10
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.Gallery1.Subtitle2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.SelectedRecordHeaderContainer2.SelectedRecordTitle2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.SelectedRecordHeaderContainer2.SelectedRecordTitle2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 24,
+                  "snippet": {
+                    "text": ".Product"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.SelectedRecordHeaderContainer2.SelectedRecordTitle2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Product"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.OnSuccess"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.OnSuccess",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 80,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "UpdateContext({ CurrentItem: Self.LastSubmit, editMode: false, newMode: false })"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSuccess",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 54,
+                  "snippet": {
+                    "text": "\"cr33a_brand\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cr33a_brand"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColDNE-Name",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 68,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@Products],DataSourceInfo.DisplayName,\"cr33a_brand\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".cr33a_brand"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cr33a_brand"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 54,
+                  "snippet": {
+                    "text": "\"cr33a_brand\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cr33a_brand"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColDNE-Name",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 68,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@Products], DataSourceInfo.MaxLength, \"cr33a_brand\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Brand_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 54,
+                  "snippet": {
+                    "text": "\"cr33a_material\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cr33a_material"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColDNE-Name",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.DisplayName"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.DisplayName",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 71,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@Products],DataSourceInfo.DisplayName,\"cr33a_material\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "DisplayName",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".cr33a_material"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cr33a_material"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 16,
+                  "charOffset": 54,
+                  "snippet": {
+                    "text": "\"cr33a_material\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "cr33a_material"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrColDNE-Name",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.MaxLength"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1.MaxLength",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 71,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "DataSourceInfo([@Products], DataSourceInfo.MaxLength, \"cr33a_material\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MaxLength",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.RightContainer2.MainContainer2.Form2.Material_DataCard1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "DataSourceInfo"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 32,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Remove(Products, selectedRecord)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Remove"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 17,
+                  "snippet": {
+                    "text": "selectedRecord"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
+          "ruleIndex": 11
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 62,
+                  "snippet": {
+                    "text": "selectedRecord"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeErrorRecordIncompatibleWithSource",
+          "ruleIndex": 12
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 32,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "Errors(Products, selectedRecord)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Product Screen",
+                "type": "'Product Screen'.ScreenContainer2.BodyContainer2.DeleteConfirmDialogContainer2.ConfirmDeleteButtonBarContainer2.ConfirmDeleteButton2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Errors"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Step Screen'.ScreenContainer1.BodyContainer1.SidebarContainer1.RecordsGallery1.Title1.Text"
                 }
               ],
@@ -47,7 +2354,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -87,7 +2394,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -127,7 +2434,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -157,7 +2464,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -187,7 +2494,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -217,7 +2524,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 14
         },
         {
           "locations": [
@@ -247,7 +2554,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -277,7 +2584,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 14
         },
         {
           "locations": [
@@ -307,7 +2614,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -337,7 +2644,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 14
         },
         {
           "locations": [
@@ -367,7 +2674,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -397,7 +2704,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -427,7 +2734,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -457,7 +2764,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -487,7 +2794,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -517,7 +2824,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -547,7 +2854,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -577,7 +2884,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -607,7 +2914,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -637,7 +2944,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -667,7 +2974,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -697,7 +3004,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -727,7 +3034,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -757,7 +3064,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -787,7 +3094,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -817,7 +3124,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -847,7 +3154,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -877,7 +3184,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -907,7 +3214,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -937,7 +3244,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 14
         },
         {
           "locations": [
@@ -967,7 +3274,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -997,7 +3304,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 14
         },
         {
           "locations": [
@@ -1027,7 +3334,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -1057,7 +3364,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -1087,7 +3394,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -1117,7 +3424,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -1147,7 +3454,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -1177,7 +3484,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 13
         },
         {
           "locations": [
@@ -1207,7 +3514,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 3
+          "ruleIndex": 15
         },
         {
           "locations": [
@@ -1237,7 +3544,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 3
+          "ruleIndex": 15
         }
       ],
       "tool": {
@@ -1245,6 +3552,70 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-SuggestRemoteExecutionHint",
+              "messageStrings": {
+                "issue": {
+                  "text": "Delegation warning. The \"{0}\" part of this formula might not work correctly on large data sets."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "If your data set exceeds the 500 record limit but contains less than 2,000 records, try resetting the limit.",
+                  "Try simplifying the formula.",
+                  "Try moving your data to a different data source."
+                ],
+                "level": "Medium",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrColDNE-Name",
+              "messageStrings": {
+                "issue": {
+                  "text": "The specified column '{0}' does not exist."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected {0} value."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the rule to produce a {0} value."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "app-ErrInvalidName",
               "messageStrings": {
@@ -1257,6 +3628,134 @@
                 "howToFix": [
                   "Remove or correct the reference to the name that isn't valid."
                 ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleCtxtVariableTypes",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. We can't evaluate your formula because the context variable types are incompatible with the types of values in other places in your app."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Look at places where you use a context variable and make sure that the type (e.g., text, number, date, record, table) is compatible."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrTypeError",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. We can't evaluate your formula because of a type error."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Check the types of the values involved in the formula and ensure the types match."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType-ExpectedType-ProvidedType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type ({1}). Expecting a {0} value instead."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidStringInterpolation",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expressions which appear inside an interpolated string must evaluate to a Text value or to a compatible type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Check the types of the expressions inside the interpolated string."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrCollectionDoesNotAcceptThisType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. The collection can't contain values of this type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the type of the item using, for example, a Datevalue, Text, or Value function."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrTypeErrorRecordIncompatibleWithSource",
+              "messageStrings": {
+                "issue": {
+                  "text": "The type of the record is incompatible with the source."
+                }
+              },
+              "properties": {
+                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
