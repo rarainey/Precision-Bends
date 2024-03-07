@@ -166,7 +166,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Text: =ThisItem.Brand
+                        Text: =ThisItem.brand
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Title2.Width
                         X: =Title2.X
@@ -181,7 +181,7 @@
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
-                        Text: =ThisItem.Material
+                        Text: =ThisItem.material
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Title2.Width
                         X: =Title2.X
@@ -487,7 +487,7 @@
                         Brand_DataCard1 As typedDataCard.textualEditCard:
                             BorderStyle: =BorderStyle.Solid
                             DataField: ="cr33a_brand"
-                            Default: =ThisItem.Brand
+                            Default: =ThisItem.brand
                             DisplayMode: =Parent.DisplayMode
                             DisplayName: =DataSourceInfo([@Products],DataSourceInfo.DisplayName,"cr33a_brand")
                             Fill: =RGBA(0, 0, 0, 0)
@@ -555,7 +555,7 @@
                         Material_DataCard1 As typedDataCard.textualEditCard:
                             BorderStyle: =BorderStyle.Solid
                             DataField: ="cr33a_material"
-                            Default: =ThisItem.Material
+                            Default: =ThisItem.material
                             DisplayMode: =Parent.DisplayMode
                             DisplayName: =DataSourceInfo([@Products],DataSourceInfo.DisplayName,"cr33a_material")
                             Fill: =RGBA(0, 0, 0, 0)

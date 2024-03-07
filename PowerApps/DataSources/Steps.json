@@ -10,6 +10,9 @@
     "Name": "Steps",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
+      "cr33a_anglefinal": "angleFinal",
+      "cr33a_bendlength": "bendLength",
+      "cr33a_bendwidth": "bendWidth",
       "cr33a_newtable1_AsyncOperations": "System Jobs",
       "cr33a_newtable1_BulkDeleteFailures": "Bulk Delete Failures",
       "cr33a_newtable1_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
@@ -19,6 +22,7 @@
       "cr33a_newtable1id": "New table",
       "cr33a_ParentProduct": "Product",
       "cr33a_ParProd": "ParProd",
+      "cr33a_setupimg": "setupImg",
       "cr33a_stepnum": "Step id",
       "cr33a_stepnumber": "Step number",
       "cr33a_testangle": "Test angle",
