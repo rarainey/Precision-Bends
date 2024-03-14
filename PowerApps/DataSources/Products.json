@@ -11,6 +11,7 @@
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "cr33a_brand": "brand",
+      "cr33a_imageid": "ImageID",
       "cr33a_material": "material",
       "cr33a_newtable_AsyncOperations": "System Jobs",
       "cr33a_newtable_BulkDeleteFailures": "Bulk Delete Failures",
