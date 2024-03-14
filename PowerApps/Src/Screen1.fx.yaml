@@ -15,7 +15,7 @@
         ZIndex: =1
 
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
-            Fill: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(202, 202, 202, 1)
             FillPortions: =0
             Height: =75
             LayoutMinHeight: =100
