@@ -40,6 +40,7 @@
       "enablecopilotcontrol": true,
       "enabledataverseoffline": false,
       "enableeditcacherefreshfrequency": false,
+      "enableeditinmcs": false,
       "enableexcelonlinebusinessv2connector": true,
       "enableexperimentaldataverseoffline": true,
       "enableideaspanel": true,
@@ -117,13 +118,13 @@
     "Id": "0b5f167a-bebf-476e-af76-93e6e3463fd7",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "CNC Part Database - Development Branch",
+    "Name": "CNC Part Database - Homepage Branch",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "CNC Part Database - Development Branch",
+    "AppName": "CNC Part Database - Homepage Branch",
     "BackgroundColor": "rgba(230, 230, 230, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",
@@ -136,6 +137,7 @@
   "ScreenOrder": [
     "Zach Design",
     "Product Screen",
-    "Step Screen"
+    "Step Screen",
+    "Screen1"
   ]
 }

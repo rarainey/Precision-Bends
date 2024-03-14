@@ -5225,7 +5225,7 @@
       "MetaDataIDKey": "",
       "Name": "FinalAngleWarnLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 18,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8021,7 +8021,7 @@
       "MetaDataIDKey": "",
       "Name": "OffsetWarnLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 19,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

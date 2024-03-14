@@ -1,0 +1,91 @@
+"Screen1 As screen.'autoLayout_HeaderFooter_ver1.0'":
+
+    ScreenContainer3 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =16
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =2
+
+        MainContainer3 As groupContainer.verticalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =3
+
+            "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DelayItemLoading: =true
+                Items: =Products
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =0
+                TemplateSize: =Min(416, Self.Height - 60)
+                Width: =Parent.Width
+                WrapCount: =3
+                ZIndex: =1
+
+                Image3 As image:
+                    Height: =Min(Self.Width, Parent.TemplateHeight - 115)
+                    Image: =ThisItem.ProdImg0
+                    ImagePosition: =ImagePosition.Fill
+                    OnSelect: =Select(Parent)
+                    RadiusBottomLeft: =8
+                    RadiusBottomRight: =8
+                    RadiusTopLeft: =8
+                    RadiusTopRight: =8
+                    Width: =Parent.TemplateWidth - 32
+                    X: =16
+                    Y: =16
+                    ZIndex: =1
+
+                Title5 As label:
+                    Align: =Align.Center
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =ThisItem.Product
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Parent.TemplateWidth - 64
+                    X: =32
+                    Y: =Image3.Y + Image3.Height + 16
+                    ZIndex: =2
+
+                Image4 As image:
+                    Height: =179
+                    OnSelect: =Select(Parent)
+                    Width: =186
+                    X: =31
+                    Y: =44
+                    ZIndex: =3
+
