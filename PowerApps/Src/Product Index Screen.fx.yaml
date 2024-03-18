@@ -60,7 +60,6 @@
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
-                OnSelect: =Navigate('Product Show Screen')
                 TemplatePadding: =0
                 TemplateSize: =Min(416, Self.Height - 60)
                 Width: =ProductsContainer.Width
@@ -71,7 +70,7 @@
                     Align: =Align.Center
                     FontWeight: =FontWeight.Semibold
                     Height: =Self.Size * 1.8
-                    OnSelect: =Select(Parent)
+                    OnSelect: =Set(selected_product, ThisItem); Navigate('Product Show Screen')
                     PaddingBottom: =0
                     PaddingLeft: =0
                     PaddingRight: =0
@@ -84,9 +83,9 @@
                     Y: =264
                     ZIndex: =2
 
-                Image2 As image:
+                ProductImage As image:
                     Height: =200
-                    OnSelect: =Select(Parent)
+                    OnSelect: =Select(ProductTitle)
                     Width: =200
                     X: =28
                     Y: =50

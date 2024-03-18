@@ -7,3 +7,10 @@
         Y: =40
         ZIndex: =1
 
+    Button1 As button:
+        OnSelect: =Navigate('Product Index Screen')
+        Text: ="Button"
+        X: =60
+        Y: =60
+        ZIndex: =2
+
