@@ -1,4 +1,4 @@
-"Screen1 As screen.'autoLayout_HeaderFooter_ver1.0'":
+"'Product Index Screen' As screen.'autoLayout_HeaderFooter_ver1.0'":
 
     ScreenContainer3 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
@@ -16,10 +16,7 @@
 
         HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
             Fill: =RGBA(202, 202, 202, 1)
-            FillPortions: =0
             Height: =75
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             RadiusBottomLeft: =8
             RadiusBottomRight: =8
@@ -27,11 +24,23 @@
             RadiusTopRight: =8
             ZIndex: =2
 
+            Image1 As image:
+                Height: =75
+                Image: =CD_Logo
+                ImagePosition: =ImagePosition.Fill
+                ZIndex: =1
+
+            Label1 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =75
+                PaddingLeft: =25
+                Size: =20
+                Text: ="C&D Plastics Cold Form Setup Tool"
+                ZIndex: =2
+
         MainContainer3 As groupContainer.verticalAutoLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
             LayoutDirection: =LayoutDirection.Vertical
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
             RadiusBottomLeft: =8
             RadiusBottomRight: =8
@@ -40,8 +49,9 @@
             ZIndex: =3
 
             "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
-                AlignInContainer: =AlignInContainer.SetByContainer
+                BorderColor: =RGBA(111, 168, 220, 1)
                 DelayItemLoading: =true
+                Fill: =RGBA(111, 168, 220, 1)
                 Items: =Products
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
@@ -74,6 +84,7 @@
                     PaddingLeft: =0
                     PaddingRight: =0
                     PaddingTop: =0
+                    Size: =18
                     Text: =ThisItem.Product
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 64
