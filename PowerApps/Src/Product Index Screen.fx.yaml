@@ -94,7 +94,7 @@
                     Y: =50
                     ZIndex: =3
 
-                Label3 As label:
+                CustomerName As label:
                     Align: =Align.Center
                     OnSelect: =Select(Parent)
                     Size: =12
