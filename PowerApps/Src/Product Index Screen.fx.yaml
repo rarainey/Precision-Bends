@@ -76,7 +76,7 @@
                     PaddingRight: =0
                     PaddingTop: =0
                     Size: =18
-                    Text: =ThisItem.Product
+                    Text: =ThisItem.prodName
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 64
                     X: =32
@@ -84,7 +84,10 @@
                     ZIndex: =2
 
                 ProductImage As image:
+                    BorderThickness: =1
                     Height: =200
+                    Image: =ThisItem.prodImg
+                    ImagePosition: =ImagePosition.Stretch
                     OnSelect: =Select(ProductTitle)
                     Width: =200
                     X: =28
