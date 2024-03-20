@@ -179,7 +179,7 @@
                     ZIndex: =9
 
     Button1 As button:
-        OnSelect: =Navigate('Product Index Screen')
+        OnSelect: =Navigate('Product Index Screen', ScreenTransition.Cover)
         Text: ="Back"
         X: =16
         Y: =516

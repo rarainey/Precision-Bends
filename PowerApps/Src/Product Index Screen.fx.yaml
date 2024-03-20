@@ -51,20 +51,28 @@
             RadiusTopRight: =8
             ZIndex: =3
 
+            ProductSearchInput As text:
+                Clear: =true
+                Default: =""
+                HintText: ="Search Products..."
+                OnChange: =Set(prodSearch, ProductSearchInput.Text)
+                Width: =Parent.Width
+                ZIndex: =1
+
             "ProductsGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Fill: =RGBA(122, 191, 255, 1)
-                Items: =Products
+                Items: =Search(Products, prodSearch, "cr33a_prodname")
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplatePadding: =0
-                TemplateSize: =Min(416, Self.Height - 60)
+                TemplateSize: =Min(375, Self.Height - 60)
                 Width: =ProductsContainer.Width
                 WrapCount: =3
-                ZIndex: =1
+                ZIndex: =2
 
                 ProductTitle As label:
                     Align: =Align.Center
