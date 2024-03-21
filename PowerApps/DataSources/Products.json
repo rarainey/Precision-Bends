@@ -11,6 +11,8 @@
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
       "cr33a_Customer": "Customer",
+      "cr33a_dummyimage": "dummyimage",
+      "cr33a_dummyimageid": "cr33a_dummyimageId",
       "cr33a_proddescription": "prodDescription",
       "cr33a_prodimg": "prodImg",
       "cr33a_prodname": "prodName",

@@ -315,7 +315,9 @@
         "RadiusTopLeft",
         "RadiusTopRight",
         "RadiusBottomLeft",
-        "RadiusBottomRight"
+        "RadiusBottomRight",
+        "PaddingLeft",
+        "PaddingBottom"
       ],
       "DynamicProperties": [
         {
@@ -483,6 +485,16 @@
           "Category": "Design",
           "PropertyName": "Height",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingLeft",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingBottom",
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultGroupContainerStyle",
@@ -568,7 +580,9 @@
         "RadiusTopLeft",
         "RadiusTopRight",
         "RadiusBottomLeft",
-        "RadiusBottomRight"
+        "RadiusBottomRight",
+        "PaddingLeft",
+        "PaddingBottom"
       ],
       "DynamicProperties": [
         {
@@ -742,6 +756,16 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingLeft",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingBottom",
           "RuleProviderType": "Unknown"
         }
       ],
@@ -1628,7 +1652,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "160",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Width",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -2317,7 +2341,9 @@
           "InvariantPropertyName": "PaddingTop",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "PaddingLeft",
+        "PaddingBottom"
       ],
       "DynamicProperties": [
         {
@@ -2490,6 +2516,16 @@
           "Category": "Design",
           "PropertyName": "PaddingTop",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingLeft",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingBottom",
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultGroupContainerStyle",
@@ -2580,7 +2616,9 @@
         "Size",
         "Italic",
         "Underline",
-        "Strikethrough"
+        "Strikethrough",
+        "PaddingLeft",
+        "PaddingBottom"
       ],
       "DynamicProperties": [
         {
@@ -2835,6 +2873,16 @@
           "RuleProviderType": "Unknown"
         },
         {
+          "Category": "Design",
+          "PropertyName": "PaddingLeft",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingBottom",
+          "RuleProviderType": "Unknown"
+        },
+        {
           "Category": "Behavior",
           "PropertyName": "OnChange",
           "RuleProviderType": "User"
@@ -3007,7 +3055,7 @@
         {
           "Category": "Design",
           "PropertyName": "TemplateSize",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",

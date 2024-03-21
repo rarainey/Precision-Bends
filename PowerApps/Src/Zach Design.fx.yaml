@@ -5,202 +5,244 @@
     HeaderBackground As rectangle:
         BorderColor: =RGBA(0, 121, 187, 1)
         Fill: =RGBA(50, 86, 160, 1)
-        Height: =119
+        Height: =158.74
         Width: =794
+        Y: =0.00
         ZIndex: =2
 
     BlueBackground As rectangle:
         BorderColor: =RGBA(0, 121, 187, 1)
         Fill: =RGBA(167, 182, 203, 1)
-        Height: =374
+        Height: =498.91
         Width: =794
-        Y: =119
+        Y: =158.74
         ZIndex: =3
 
     GrayBackground As rectangle:
         BorderColor: =RGBA(219, 219, 219, 1)
         Fill: =RGBA(219, 219, 219, 1)
-        Height: =325
+        Height: =433.54
         Width: =794
-        Y: =798
+        Y: =933
         ZIndex: =4
 
     HeaderLabel As label:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =66
-        Size: =40
+        Height: =88.04
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =53.36
         Text: ="Cold Form Setup Tool"
         Width: =691
         X: =51
-        Y: =19
+        Y: =25.35
         ZIndex: =5
 
     MaterialLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Material"
         Visible: =! IsBlank(Brand.Selected.Value)
         X: =427
-        Y: =124
+        Y: =165.41
         ZIndex: =6
 
     BrandLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Brand"
         X: =51
-        Y: =124
+        Y: =165.41
         ZIndex: =7
 
     DieAngleLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Die Angle [deg]"
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =263
         X: =51
-        Y: =243
+        Y: =324.16
         ZIndex: =8
 
     DieApertureLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Die Aperture [in]"
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =263
         X: =427
-        Y: =244
+        Y: =325.49
         ZIndex: =9
 
     ThicknessLabel As label:
-        Height: =38
+        Height: =50.69
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Material Thickness [in] "
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =691
         X: =51
-        Y: =361
+        Y: =481.57
         ZIndex: =10
 
     FinalAngleLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Final Angle Goal [deg]"
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
-        Y: =516
+        Y: =688.34
         ZIndex: =11
 
     OffsetLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Die Offset [in]"
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =263
         X: =427
-        Y: =516
+        Y: =688.34
         ZIndex: =12
 
     DepthLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Blade Depth [in]"
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =263
         X: =51
-        Y: =650
+        Y: =867.09
         ZIndex: =13
 
     Material As dropdown:
-        Height: =65
+        Height: =86.71
         Items: =Distinct(Filter('Material Data', brand = option), material)
-        Size: =20
+        PaddingBottom: =13.34
+        PaddingLeft: =13.34
+        Size: =26.68
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =427
-        Y: =173
+        Y: =230.78
         ZIndex: =14
 
     Brand As dropdown:
         AllowEmptySelection: =true
         Default: =""
-        Height: =65
+        Height: =86.71
         Items: =Distinct('Material Data', brand)
         OnChange: =Set(option, Brand.Selected.Value)
         OnSelect: =Set(option, Brand.Selected.Value)
-        Size: =20
+        PaddingBottom: =13.34
+        PaddingLeft: =13.34
+        Size: =26.68
         Width: =315
         X: =51
-        Y: =173
+        Y: =230.78
         ZIndex: =15
 
     DieAngle As dropdown:
-        Height: =65
+        Height: =86.71
         Items: =Distinct(Filter('Material Data', brand = option), dieAngle)
-        Size: =20
+        PaddingBottom: =13.34
+        PaddingLeft: =13.34
+        Size: =26.68
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
-        Y: =293
+        Y: =390.86
         ZIndex: =16
 
     DieAperture As dropdown:
-        Height: =65
+        Height: =86.71
         Items: =Distinct(Filter('Material Data', brand = option), dieAperture)
-        Size: =20
+        PaddingBottom: =13.34
+        PaddingLeft: =13.34
+        Size: =26.68
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =427
-        Y: =293
+        Y: =390.86
         ZIndex: =17
 
     Thickness As dropdown:
-        Height: =65
+        Height: =86.71
         Items: =Distinct(Filter('Material Data', brand = option), thick)
-        Size: =20
+        PaddingBottom: =13.34
+        PaddingLeft: =13.34
+        Size: =26.68
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =691
         X: =51
-        Y: =408
+        Y: =544.27
         ZIndex: =18
 
     FinalAngle As text:
         Align: =Align.Center
         Default: =""
         Format: =TextFormat.Number
-        Height: =65
+        Height: =86.71
         OnChange: =If(Value(FinalAngle.Text) > 180 Or Value(FinalAngle.Text) < 10, Reset(FinalAngle))
-        Size: =20
+        PaddingBottom: =6.67
+        PaddingLeft: =16.01
+        Size: =26.68
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
-        Y: =561
+        Y: =748.37
         ZIndex: =19
 
     Offset As text:
         Align: =Align.Center
         Default: =""
         Format: =TextFormat.Number
-        Height: =65
+        Height: =86.71
         OnChange: =If(Value(Offset.Text) > 3 Or Value(Offset.Text) < 0, Reset(Offset))
-        Size: =20
+        PaddingBottom: =6.67
+        PaddingLeft: =16.01
+        Size: =26.68
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =427
-        Y: =558
+        Y: =744.36
         ZIndex: =20
 
     Calculate As button:
         BorderColor: =RGBA(0, 18, 107, 1)
         Fill: =RGBA(53, 176, 74, 1)
-        Height: =67
+        Height: =89.38
         OnSelect: |-
             =Set(depth_var, (4.12954565894278 + (-1.8228847456701) * Thickness.Selected.Value + (-0.00381149445491119) * FinalAngle.Text + 0.776435302250028 * DieAperture.Selected.Value) - Offset.Text);
             
             Set(correction_var, Blank())
-        Size: =25
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =33.35
         Text: ="Calculate"
         Visible: |
             =! IsBlank(Brand.Selected.Value)
@@ -212,62 +254,74 @@
             And ! IsBlank(Offset.Text)
         Width: =315
         X: =427
-        Y: =699
+        Y: =932.46
         ZIndex: =21
 
     CheckAngleLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Check Angle [deg]"
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
-        Y: =810
+        Y: =1080.53
         ZIndex: =22
 
     CheckAngle As text:
         Align: =Align.Center
         Default: =""
         Format: =TextFormat.Number
-        Height: =65
-        Size: =20
+        Height: =86.71
+        PaddingBottom: =6.67
+        PaddingLeft: =16.01
+        Size: =26.68
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
-        Y: =855
+        Y: =1140.56
         ZIndex: =23
 
     MeasuredAngleLabel As label:
+        Height: =53.36
         Italic: =true
-        Size: =24
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =32.02
         Text: ="Measured Angle [deg]"
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
-        Y: =938
+        Y: =1251.28
         ZIndex: =24
 
     MeasuredAngle As text:
         Align: =Align.Center
         Default: =""
         Format: =TextFormat.Number
-        Height: =65
-        Size: =20
+        Height: =86.71
+        PaddingBottom: =6.67
+        PaddingLeft: =16.01
+        Size: =26.68
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
-        Y: =983
+        Y: =1280
         ZIndex: =25
 
     Calibrate As button:
         BorderColor: =RGBA(0, 18, 107, 1)
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(154, 215, 165, 1)
-        Height: =65
+        Height: =86.71
         OnSelect: |-
             =Set(correction_var, 0.00358322023127228 * (MeasuredAngle.Text - CheckAngle.Text));
             Set(depth_var, depth_var + correction_var)
-        Size: =25
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =33.35
         Text: ="Calibrate"
         Visible: |-
             =! IsBlank(Brand.Selected.Value)
@@ -276,57 +330,68 @@
             And ! IsBlank(Depth.Text)
         Width: =315
         X: =427
-        Y: =983
+        Y: =1280
         ZIndex: =26
 
     CorrectionLabel As label:
-        Height: =43
+        Height: =57.36
         Italic: =true
-        Size: =20
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =26.68
         Text: ="Correction Factor [in]"
         Visible: =! IsBlank(correction_var)
         Width: =315
         X: =51
-        Y: =1063
+        Y: =1309
         ZIndex: =27
 
     Depth As label:
         Align: =Align.Center
         BorderThickness: =2
         Fill: =RGBA(154, 215, 165, 1)
-        Height: =63
-        Size: =20
+        Height: =84.04
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =26.68
         Text: =If(! IsBlank(depth_var), Round(depth_var, 3))
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =315
         X: =51
-        Y: =699
+        Y: =932.46
         ZIndex: =28
 
     Correction As label:
         Align: =Align.Center
-        Height: =43
-        Size: =20
+        Height: =57.36
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =26.68
         Text: =Round(correction_var, 3)
         Visible: =! IsBlank(correction_var)
         Width: =315
         X: =427
-        Y: =1063
+        Y: =1309
         ZIndex: =29
 
     CalibrationLabel As label:
-        Size: =15
+        Height: =53.36
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =20.01
         Text: ="After 15 seconds"
         Visible: =! IsBlank(Brand.Selected.Value)
         Width: =185
         X: =314
-        Y: =816
+        Y: =1088.53
         ZIndex: =30
 
     FinalAngleWarnLabel As label:
         Color: =RGBA(168, 0, 0, 1)
-        Height: =32
-        Size: =12
+        Height: =42.69
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =16.01
         Text: ="Angle must be between 10 and 180 degrees."
         Visible: |-
             =! IsBlank(Brand.Selected.Value)
@@ -334,22 +399,26 @@
             Or Value(FinalAngle.Text) < 10)
         Width: =343
         X: =51
-        Y: =626
+        Y: =835.07
         ZIndex: =31
 
     LogoImage As image:
-        Height: =284
+        Height: =378.85
         Image: =CD_Logo
+        PaddingBottom: =0.00
+        PaddingLeft: =0.00
         Visible: =IsBlank(Brand.Selected.Value)
         Width: =360
         X: =216
-        Y: =500
+        Y: =666.99
         ZIndex: =32
 
     OffsetWarnLabel As label:
         Color: =RGBA(168, 0, 0, 1)
-        Height: =32
-        Size: =12
+        Height: =42.69
+        PaddingBottom: =6.67
+        PaddingLeft: =6.67
+        Size: =16.01
         Text: ="Offset must be between 0 and 3 inches."
         Visible: |-
             =! IsBlank(Brand.Selected.Value)
@@ -358,6 +427,6 @@
             Or IsBlank(Offset.Text))
         Width: =343
         X: =427
-        Y: =623
+        Y: =831.07
         ZIndex: =33
 
