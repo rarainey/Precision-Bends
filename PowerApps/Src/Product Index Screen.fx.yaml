@@ -68,6 +68,7 @@
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
+                OnSelect: =Set(Image, ThisItem.prodImg)
                 TemplatePadding: =0
                 TemplateSize: =Min(375, Self.Height - 60)
                 Width: =ProductsContainer.Width
