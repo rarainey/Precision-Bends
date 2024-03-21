@@ -91,9 +91,9 @@
                 LoadingSpinner: =LoadingSpinner.Data
                 OnSelect: =
                 TemplatePadding: =0.00
-                TemplateSize: =500.24
+                TemplateSize: =400
                 Width: =ProductsContainer.Width
-                WrapCount: =3
+                WrapCount: =2
                 Y: =53.36
                 ZIndex: =2
 
@@ -111,20 +111,20 @@
                     VerticalAlign: =VerticalAlign.Top
                     Width: =Parent.TemplateWidth - 64
                     X: =32
-                    Y: =352.17
+                    Y: =299
                     ZIndex: =2
 
                 ProductImage As image:
                     BorderThickness: =1
-                    Height: =266.80
+                    Height: =210
                     Image: =ThisItem.prodImg
-                    ImagePosition: =ImagePosition.Stretch
+                    ImagePosition: =ImagePosition.Fill
                     OnSelect: =Select(ProductTitle)
                     PaddingBottom: =0.00
                     PaddingLeft: =0.00
-                    Width: =200
-                    X: =28
-                    Y: =66.70
+                    Width: =280
+                    X: =52
+                    Y: =66
                     ZIndex: =3
 
                 CustomerName As label:
@@ -135,8 +135,8 @@
                     PaddingLeft: =6.67
                     Size: =16.01
                     Text: =ThisItem.Customer.custName
-                    X: =53
-                    Y: =394.86
+                    X: =117
+                    Y: =342
                     ZIndex: =4
 
         FooterContainer As groupContainer.horizontalAutoLayoutContainer:
