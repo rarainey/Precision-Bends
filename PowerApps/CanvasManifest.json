@@ -135,8 +135,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Zach Design",
     "Product Index Screen",
-    "Product Show Screen"
+    "Product Show Screen",
+    "Zach Design"
   ]
 }
