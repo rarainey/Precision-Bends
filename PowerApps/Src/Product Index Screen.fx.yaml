@@ -55,7 +55,7 @@
                 Clear: =true
                 Default: =""
                 HintText: ="Search Products..."
-                OnChange: =Set(prodSearch, ProductSearchInput.Text)
+                OnChange: =
                 Width: =Parent.Width
                 ZIndex: =1
 
@@ -63,7 +63,7 @@
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Fill: =RGBA(122, 191, 255, 1)
-                Items: =Search(Products, prodSearch, "cr33a_prodname")
+                Items: =Search(Products, ProductSearchInput.Text, "cr33a_prodname")
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
