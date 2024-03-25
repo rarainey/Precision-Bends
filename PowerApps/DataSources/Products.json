@@ -1,29 +1,29 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "cr33a_newtables",
+    "EntitySetName": "cr33a_products",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "cr33a_newtable",
+    "LogicalName": "cr33a_product",
     "MaxGetRowsCount": 500,
     "Name": "Products",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
-      "cr33a_brand": "Brand",
-      "cr33a_material": "Material",
-      "cr33a_newtable_AsyncOperations": "System Jobs",
-      "cr33a_newtable_BulkDeleteFailures": "Bulk Delete Failures",
-      "cr33a_newtable_DuplicateBaseRecord": "Duplicate Records (cr33a_newtable_DuplicateBaseRecord)",
-      "cr33a_newtable_DuplicateMatchingRecord": "Duplicate Records (cr33a_newtable_DuplicateMatchingRecord)",
-      "cr33a_newtable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
-      "cr33a_newtable_PrincipalObjectAttributeAccesses": "Field Sharing",
-      "cr33a_newtable_ProcessSession": "Process Sessions",
-      "cr33a_newtable_SyncErrors": "Sync Errors",
-      "cr33a_newtable1_cr33a_ParentProduct_cr33a": "Steps (cr33a_newtable1_cr33a_ParentProduct_cr33a)",
-      "cr33a_newtable1_ParProd_cr33a_newtable": "Steps (cr33a_newtable1_ParProd_cr33a_newtable)",
-      "cr33a_newtableid": "New table",
-      "cr33a_product": "Product",
+      "cr33a_Customer": "Customer",
+      "cr33a_dummyimage": "dummyimage",
+      "cr33a_dummyimageid": "cr33a_dummyimageId",
+      "cr33a_proddescription": "prodDescription",
+      "cr33a_prodimg": "prodImg",
+      "cr33a_prodname": "prodName",
+      "cr33a_product_AsyncOperations": "System Jobs",
+      "cr33a_product_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr33a_product_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr33a_product_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr33a_product_ProcessSession": "Process Sessions",
+      "cr33a_product_SyncErrors": "Sync Errors",
+      "cr33a_productid": "Product",
+      "cr33a_Step_cr33a_Product_cr33a_Product": "Steps",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -46,21 +46,21 @@
   },
   {
     "DisplayName": "Products (Views)",
-    "Name": "_cr33a_newtable_views",
+    "Name": "_cr33a_product_views",
     "RelatedEntityName": "Products",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "1eb48dfe-4b0e-484b-a59e-81e0e9929641": "New table Advanced Find View",
-      "767aad31-4f77-49e7-963b-260462b9844a": "Active New tables",
-      "7925d579-2d20-4275-832e-d0840ae1d431": "Inactive New tables",
-      "be0ce3f4-c3c0-4f82-bab1-6efd554b1f56": "New table Lookup View",
-      "eca667b5-8c38-483f-9d25-a16e44c79181": "New table Associated View"
+      "1787d1ad-94d4-476b-8b60-6953ce87854e": "Product Lookup View",
+      "8d51fe39-d18a-4b41-9b71-951db821baa7": "Inactive Products",
+      "8d90c50d-95ab-4fec-86d1-b7474e396d69": "Product Advanced Find View",
+      "af44258b-e480-4303-be47-6d57f6e5dacd": "Active Products",
+      "dd317a51-7585-4f08-9a65-5857549c330e": "Product Associated View"
     }
   },
   {
     "DisplayName": "Status (Products)",
-    "Name": "cr33a_newtable_statecode",
+    "Name": "cr33a_product_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
       "1": "Inactive"
@@ -80,7 +80,7 @@
   },
   {
     "DisplayName": "Status Reason (Products)",
-    "Name": "cr33a_newtable_statuscode",
+    "Name": "cr33a_product_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"

@@ -1,34 +1,26 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "cr33a_steps",
+    "EntitySetName": "cr33a_customers",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "cr33a_step",
+    "LogicalName": "cr33a_customer",
     "MaxGetRowsCount": 500,
-    "Name": "Steps",
+    "Name": "Customers",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
-      "cr33a_backstop": "Backstop",
-      "cr33a_bendtarget": "BendTarget",
-      "cr33a_bendwidth": "Bend Width",
-      "cr33a_description": "setupDescription",
-      "cr33a_img0": "img0",
-      "cr33a_img1": "img1",
-      "cr33a_img2": "img2",
-      "cr33a_img3": "img3",
-      "cr33a_img4": "img4",
-      "cr33a_Product": "Product",
-      "cr33a_setuporder": "setupOrder",
-      "cr33a_step_AsyncOperations": "System Jobs",
-      "cr33a_step_BulkDeleteFailures": "Bulk Delete Failures",
-      "cr33a_step_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
-      "cr33a_step_PrincipalObjectAttributeAccesses": "Field Sharing",
-      "cr33a_step_ProcessSession": "Process Sessions",
-      "cr33a_step_SyncErrors": "Sync Errors",
-      "cr33a_stepid": "Step",
-      "cr33a_stepname": "setupName",
+      "cr33a_custname": "custName",
+      "cr33a_customer_AsyncOperations": "System Jobs",
+      "cr33a_customer_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr33a_customer_DuplicateBaseRecord": "Duplicate Records (cr33a_customer_DuplicateBaseRecord)",
+      "cr33a_customer_DuplicateMatchingRecord": "Duplicate Records (cr33a_customer_DuplicateMatchingRecord)",
+      "cr33a_customer_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr33a_customer_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr33a_customer_ProcessSession": "Process Sessions",
+      "cr33a_customer_SyncErrors": "Sync Errors",
+      "cr33a_customerid": "Customer",
+      "cr33a_Product_cr33a_Customer_cr33a_Custom": "Products",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -46,26 +38,26 @@
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
       "versionnumber": "Version Number"
     },
-    "PreferredName": "Steps",
+    "PreferredName": "Customers",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "Steps (Views)",
-    "Name": "_cr33a_step_views",
-    "RelatedEntityName": "Steps",
+    "DisplayName": "Customers (Views)",
+    "Name": "_cr33a_customer_views",
+    "RelatedEntityName": "Customers",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "18e5389c-5b92-48a2-8947-da52ccbbf0d0": "Step Lookup View",
-      "280be8f2-0024-4a50-a477-df6a61f1d322": "Inactive Steps",
-      "3db4c33a-7e04-42b5-996a-404be97764a3": "Active Steps",
-      "812819b7-81f8-4bdc-a098-23c7ab2adbd2": "Step Advanced Find View",
-      "ecd280f8-02c8-43b2-8fa5-9c8538f0fb74": "Step Associated View"
+      "2b44015f-ddfc-473b-b3fa-3184a3418a0d": "Customer Lookup View",
+      "300ee930-2f29-469c-8c42-5365fdcde518": "Customer Associated View",
+      "a209d802-b951-4aba-ad71-76664d0bd224": "Customer Advanced Find View",
+      "a4c05542-d40f-4409-b039-c321496d185e": "Active Customers",
+      "c83d600d-6ba7-4608-b76b-d2bcdc04c71c": "Inactive Customers"
     }
   },
   {
-    "DisplayName": "Status (Steps)",
-    "Name": "cr33a_step_statecode",
+    "DisplayName": "Status (Customers)",
+    "Name": "cr33a_customer_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
       "1": "Inactive"
@@ -75,17 +67,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "Steps"
+        "OptionSetReferenceEntityName": "Customers"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "Steps",
+    "RelatedEntityName": "Customers",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (Steps)",
-    "Name": "cr33a_step_statuscode",
+    "DisplayName": "Status Reason (Customers)",
+    "Name": "cr33a_customer_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"
@@ -95,12 +87,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "Steps"
+        "OptionSetReferenceEntityName": "Customers"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "Steps",
+    "RelatedEntityName": "Customers",
     "Type": "OptionSetInfo"
   }
 ]

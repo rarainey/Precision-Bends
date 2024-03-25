@@ -1,0 +1,175 @@
+"'Product Index Screen' As screen.'autoLayout_HeaderFooter_ver1.0'":
+
+    IndexPageContainer As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(122, 191, 255, 1)
+        Height: =1366.00
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =0.00
+        PaddingLeft: =0.00
+        Width: =Parent.Width
+        Y: =0.00
+        ZIndex: =1
+
+        HeaderContainer As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(214, 221, 224, 1)
+            FillPortions: =0
+            Height: =100.05
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =0.00
+            PaddingLeft: =0.00
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =Parent.Width
+            Y: =0.00
+            ZIndex: =2
+
+            HeaderLogo As image:
+                Height: =100.05
+                Image: =CD_Logo
+                PaddingBottom: =0.00
+                PaddingLeft: =0.00
+                Y: =0.00
+                ZIndex: =1
+
+            HeaderText As label:
+                FillPortions: =1
+                FontWeight: =FontWeight.Bold
+                Height: =100.05
+                PaddingBottom: =6.67
+                PaddingLeft: =20.01
+                Size: =25
+                Text: ="C&D Plastics Cold Form Setup Tool"
+                Y: =0.00
+                ZIndex: =2
+
+        ProductsContainer As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(40, 134, 222, 1)
+            Height: =1165.90
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =0.00
+            PaddingLeft: =0.00
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Y: =100.05
+            ZIndex: =3
+
+            ProductSearchInput As text:
+                Clear: =true
+                Default: =""
+                Height: =53.36
+                HintText: ="Search Products..."
+                OnChange: =
+                PaddingBottom: =6.67
+                PaddingLeft: =16.01
+                Size: =17.34
+                Width: =Parent.Width
+                Y: =0.00
+                ZIndex: =1
+
+            "ProductsGallery As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DelayItemLoading: =true
+                Fill: =RGBA(122, 191, 255, 1)
+                Height: =1112.54
+                Items: =Search(Products, ProductSearchInput.Text, "cr33a_prodname")
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                OnSelect: =
+                TemplatePadding: =0.00
+                TemplateSize: =400
+                Width: =ProductsContainer.Width
+                WrapCount: =2
+                Y: =53.36
+                ZIndex: =2
+
+                ProductTitle As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Semibold
+                    Height: =43.22
+                    OnSelect: =Set(selected_product, ThisItem); Navigate('Product Show Screen', ScreenTransition.CoverRight)
+                    PaddingBottom: =0.00
+                    PaddingLeft: =0.00
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =24.01
+                    Text: =ThisItem.prodName
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Parent.TemplateWidth - 64
+                    X: =32
+                    Y: =299
+                    ZIndex: =2
+
+                ProductImage As image:
+                    BorderThickness: =1
+                    Height: =210
+                    Image: =ThisItem.prodImg
+                    ImagePosition: =ImagePosition.Fill
+                    OnSelect: =Select(ProductTitle)
+                    PaddingBottom: =0.00
+                    PaddingLeft: =0.00
+                    Width: =280
+                    X: =52
+                    Y: =66
+                    ZIndex: =3
+
+                CustomerName As label:
+                    Align: =Align.Center
+                    Height: =53.36
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =6.67
+                    PaddingLeft: =6.67
+                    Size: =16.01
+                    Text: =ThisItem.Customer.custName
+                    X: =117
+                    Y: =342
+                    ZIndex: =4
+
+        FooterContainer As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(214, 221, 224, 1)
+            FillPortions: =0
+            Height: =100.05
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =0.00
+            PaddingLeft: =0.00
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Y: =1265.95
+            ZIndex: =4
+
+            NewProductButton As button:
+                Align: =Align.Right
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(72, 163, 62, 1)
+                Fill: =RGBA(0, 0, 0, 0)
+                FontWeight: =FontWeight.Bold
+                Height: =100.05
+                PaddingBottom: =0.00
+                PaddingLeft: =0.00
+                PaddingRight: =15
+                PaddingTop: =0
+                Size: =26.68
+                Text: ="+ Add New Product"
+                Width: =375
+                Y: =0.00
+                ZIndex: =1
+

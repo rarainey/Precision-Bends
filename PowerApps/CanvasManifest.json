@@ -40,6 +40,7 @@
       "enablecopilotcontrol": true,
       "enabledataverseoffline": false,
       "enableeditcacherefreshfrequency": false,
+      "enableeditinmcs": false,
       "enableexcelonlinebusinessv2connector": true,
       "enableexperimentaldataverseoffline": true,
       "enableideaspanel": true,
@@ -58,7 +59,7 @@
       "exportimportcomponents2": true,
       "externalmessage": false,
       "fluentv9controls": false,
-      "fluentv9controlspreview": false,
+      "fluentv9controlspreview": true,
       "formuladataprefetch": true,
       "formularepair": false,
       "generatedebugpublishedapp": false,
@@ -101,13 +102,13 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 3,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
-    "DocumentLayoutHeight": 1024,
+    "DocumentLayoutHeight": 1366,
     "DocumentLayoutLockOrientation": true,
-    "DocumentLayoutMaintainAspectRatio": false,
+    "DocumentLayoutMaintainAspectRatio": true,
     "DocumentLayoutOrientation": "portrait",
     "DocumentLayoutScaleToFit": true,
     "DocumentLayoutWidth": 768,
@@ -117,13 +118,13 @@
     "Id": "0b5f167a-bebf-476e-af76-93e6e3463fd7",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "CNC Part Database - Development Branch",
+    "Name": "CNC Part Database - Homepage Branch",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "CNC Part Database - Development Branch",
+    "AppName": "CNC Part Database - Homepage Branch",
     "BackgroundColor": "rgba(230, 230, 230, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",
@@ -134,8 +135,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Zach Design",
-    "Product Screen",
-    "Step Screen"
+    "Product Index Screen",
+    "Product Show Screen",
+    "Zach Design"
   ]
 }
