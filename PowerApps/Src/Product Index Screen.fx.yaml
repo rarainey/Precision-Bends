@@ -104,7 +104,7 @@
                     OnSelect: |-
                         =Set(selected_product, ThisItem); 
                         
-                        Set(selected_bend, LookUp(Filter(Steps, Product.prodName = selected_product.prodName), setupName = "Bend 1"));
+                        Set(selected_bend, LookUp(Steps, Product.prodName = selected_product.prodName));
                         
                         Navigate('Product Show Screen', ScreenTransition.CoverRight); 
                     PaddingBottom: =0.00
