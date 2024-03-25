@@ -205,6 +205,7 @@
             If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img1));
             
             If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img0))
+        Visible: =If(Not(bend_image = selected_bend.img0), true)
         X: =229
         Y: =359
         ZIndex: =10
@@ -212,15 +213,13 @@
     BendRight As icon.BackArrow:
         Icon: =Icon.ChevronRight
         OnSelect: |-
-            =If(BendRight.Visible, 
-            
-            If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1));
+            =If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1));
             
             If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img2));
             
             If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img3));
             
-            If(BendImage.Image = selected_bend.img3, Set(bend_image, selected_bend.img4)))
+            If(BendImage.Image = selected_bend.img3, Set(bend_image, selected_bend.img4))
         Visible: |-
             =If(BendImage.Image = selected_bend.img0, If(Not(IsBlank(selected_bend.img1)), true))
             Or
