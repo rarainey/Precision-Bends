@@ -212,14 +212,7 @@
 
     BendRight As icon.BackArrow:
         Icon: =Icon.ChevronRight
-        OnSelect: |-
-            =If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1));
-            
-            If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img2));
-            
-            If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img3));
-            
-            If(BendImage.Image = selected_bend.img3, Set(bend_image, selected_bend.img4))
+        OnSelect: =If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1))
         Visible: |-
             =If(BendImage.Image = selected_bend.img0, If(Not(IsBlank(selected_bend.img1)), true))
             Or
