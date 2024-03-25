@@ -96,7 +96,7 @@
             Items: =Filter(Steps, Product.prodName = selected_product.prodName)
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
-            OnSelect: =Set(selected_bend, ThisItem)
+            OnSelect: =Set(selected_bend, ThisItem); Set(bend_image, ThisItem.img0)
             TemplatePadding: =0
             TemplateSize: =80
             Width: =Parent.Width
@@ -185,7 +185,7 @@
     BendImage As image:
         BorderThickness: =1
         Height: =210
-        Image: =selected_bend.img0
+        Image: =bend_image
         ImagePosition: =ImagePosition.Fill
         OnSelect: =
         PaddingBottom: =0.00
@@ -203,7 +203,7 @@
 
     BendRight As icon.BackArrow:
         Icon: =Icon.ChevronRight
-        OnSelect: =Switch(BendImage.Image, selected_bend.img0, selected_bend.img1)
+        OnSelect: =If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1))
         X: =604
         Y: =359
         ZIndex: =11
