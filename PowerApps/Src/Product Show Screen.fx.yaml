@@ -197,13 +197,31 @@
 
     BendLeft As icon.BackArrow:
         Icon: =Icon.ChevronLeft
+        OnSelect: |-
+            =If(BendImage.Image = selected_bend.img4, Set(bend_image, selected_bend.img3));
+            
+            If(BendImage.Image = selected_bend.img3, Set(bend_image, selected_bend.img2));
+            
+            If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img1));
+            
+            If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img0))
         X: =229
         Y: =359
         ZIndex: =10
 
     BendRight As icon.BackArrow:
         Icon: =Icon.ChevronRight
-        OnSelect: =If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1))
+        OnSelect: |-
+            =If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1));
+            
+            
+            If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1));
+            
+            If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img2));
+            
+            If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img3));
+            
+            If(BendImage.Image = selected_bend.img3, Set(bend_image, selected_bend.img4))
         X: =604
         Y: =359
         ZIndex: =11
