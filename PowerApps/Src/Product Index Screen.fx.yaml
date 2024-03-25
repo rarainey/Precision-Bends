@@ -101,7 +101,12 @@
                     Align: =Align.Center
                     FontWeight: =FontWeight.Semibold
                     Height: =43.22
-                    OnSelect: =Set(selected_product, ThisItem); Navigate('Product Show Screen', ScreenTransition.CoverRight)
+                    OnSelect: |-
+                        =Set(selected_product, ThisItem); 
+                        
+                        Set(selected_bend, LookUp(Filter(Steps, Product.prodName = selected_product.prodName), setupName = "Bend 1"));
+                        
+                        Navigate('Product Show Screen', ScreenTransition.CoverRight); 
                     PaddingBottom: =0.00
                     PaddingLeft: =0.00
                     PaddingRight: =0

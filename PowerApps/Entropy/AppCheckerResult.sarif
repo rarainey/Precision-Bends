@@ -164,36 +164,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Product Index Screen'.IndexPageContainer.ProductsContainer.ProductsGallery.ProductTitle.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Product Index Screen'.IndexPageContainer.ProductsContainer.ProductsGallery.ProductTitle.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Product Index Screen",
-                "type": "'Product Index Screen'.IndexPageContainer.ProductsContainer.ProductsGallery.ProductTitle"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Product Index Screen'.IndexPageContainer.ProductsContainer.ProductsGallery.ProductTitle.TabIndex"
                 }
               ],
@@ -218,6 +188,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Product Index Screen'.IndexPageContainer.ProductsContainer.ProductsGallery.ProductTitle.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Product Index Screen'.IndexPageContainer.ProductsContainer.ProductsGallery.ProductTitle.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Product Index Screen",
+                "type": "'Product Index Screen'.IndexPageContainer.ProductsContainer.ProductsGallery.ProductTitle"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
         },
         {
           "locations": [
