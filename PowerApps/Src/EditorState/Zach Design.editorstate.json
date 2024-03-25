@@ -834,7 +834,7 @@
       "MetaDataIDKey": "",
       "Name": "Calculate",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 22,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1139,7 +1139,7 @@
       "MetaDataIDKey": "",
       "Name": "Calibrate",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 29,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1417,7 +1417,7 @@
       "MetaDataIDKey": "",
       "Name": "CalibrationLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 25,
+      "ParentIndex": 31,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1715,7 +1715,7 @@
       "MetaDataIDKey": "",
       "Name": "CheckAngle",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 26,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2010,7 +2010,7 @@
       "MetaDataIDKey": "",
       "Name": "CheckAngleLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 24,
+      "ParentIndex": 29,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2300,7 +2300,7 @@
       "MetaDataIDKey": "",
       "Name": "Correction",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 31,
+      "ParentIndex": 28,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2611,7 +2611,7 @@
       "MetaDataIDKey": "",
       "Name": "CorrectionLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 30,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2915,7 +2915,7 @@
       "MetaDataIDKey": "",
       "Name": "Depth",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 21,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3205,7 +3205,7 @@
       "MetaDataIDKey": "",
       "Name": "DepthLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 20,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4683,7 +4683,7 @@
       "MetaDataIDKey": "",
       "Name": "FinalAngle",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 17,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5273,7 +5273,7 @@
       "MetaDataIDKey": "",
       "Name": "FinalAngleWarnLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 19,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5524,7 +5524,7 @@
       "MetaDataIDKey": "",
       "Name": "GrayBackground",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 23,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6902,7 +6902,7 @@
       "MetaDataIDKey": "",
       "Name": "MeasuredAngle",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 28,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7197,7 +7197,7 @@
       "MetaDataIDKey": "",
       "Name": "MeasuredAngleLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 27,
+      "ParentIndex": 30,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7503,7 +7503,7 @@
       "MetaDataIDKey": "",
       "Name": "Offset",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 16,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8093,7 +8093,7 @@
       "MetaDataIDKey": "",
       "Name": "OffsetWarnLabel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 18,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
