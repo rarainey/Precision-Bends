@@ -87,7 +87,7 @@
 
         ShowBackButton As button:
             AlignInContainer: =AlignInContainer.Center
-            OnSelect: =Navigate('Product Index Screen')
+            OnSelect: =Navigate('Product Index Screen', ScreenTransition.Cover)
             Text: ="Back"
             ZIndex: =1
 
