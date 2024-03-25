@@ -216,9 +216,6 @@
             
             If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1));
             
-            
-            If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1));
-            
             If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img2));
             
             If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img3));
