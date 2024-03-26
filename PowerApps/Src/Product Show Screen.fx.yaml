@@ -101,6 +101,7 @@
 
         "BendContainer As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
             AlignInContainer: =AlignInContainer.SetByContainer
+            Default: =BendDefault
             DelayItemLoading: =true
             Items: =Filter(Steps, Product.prodName = selected_product.prodName)
             Layout: =Layout.Vertical
@@ -330,15 +331,18 @@
                 IsBlank(
                 LookUp(
                 Filter(Steps, Product.prodName = selected_product.prodName),
-                selected_bend.setupOrder = selected_bend.setupOrder+1)), 
+                setupOrder = selected_bend.setupOrder+1)), 
                 Navigate('Product Index Screen'));
             
             If(
+                Not(
                 IsBlank(
                 LookUp(
                 Filter(Steps, Product.prodName = selected_product.prodName),
-                selected_bend.setupOrder = selected_bend.setupOrder+1)), 
-                Set(selected_bend, LookUp(Filter(Steps, Product.prodName = selected_product.prodName), selected_bend.setupOrder = selected_bend.setupOrder+1)));
+                setupOrder = selected_bend.setupOrder+1))), 
+                Set(BendDefault, LookUp(Filter(Steps, Product.prodName = selected_product.prodName), setupOrder = selected_bend.setupOrder+1));
+                Select(BendContainer);
+                Select(BendContainer))
         Size: =30
         Text: ="Next"
         Visible: =If(Not(IsBlank(selected_bend)), true)
