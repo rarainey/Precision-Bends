@@ -174,7 +174,6 @@
         Size: =21
         Text: |-
             ="Details:"
-        Visible: =If(Not(IsBlank(selected_bend)), true)
         Width: =112
         X: =134
         Y: =505
@@ -185,7 +184,7 @@
         Height: =162
         Overflow: =Overflow.Scroll
         Size: =21
-        Text: =selected_bend.setupDescription
+        Text: =If(IsBlank(selected_bend.setupDescription), selected_product.prodDescription, selected_bend.setupDescription)
         Width: =615
         X: =134
         Y: =550
