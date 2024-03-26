@@ -104,10 +104,6 @@
                     OnSelect: |-
                         =Set(selected_product, ThisItem); 
                         
-                        Set(selected_bend, LookUp(Steps, Product.prodName = selected_product.prodName));
-                        
-                        Set(bend_image, selected_bend.img0);
-                        
                         Navigate('Product Show Screen', ScreenTransition.CoverRight); 
                     PaddingBottom: =0.00
                     PaddingLeft: =0.00
