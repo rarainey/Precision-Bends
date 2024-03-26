@@ -5,7 +5,7 @@
       "DataflowAnalysisEnabled": false,
       "DataflowAnalysisFlagStateToggledByUser": false
     },
-    "DocVersion": "1.337",
+    "DocVersion": "1.338",
     "MinVersionToLoad": "1.331",
     "MSAppStructureVersion": "2.0"
   },
@@ -29,6 +29,7 @@
       "dataverseactionsenabled": true,
       "delaycontrolrendering": true,
       "delayloadscreens": true,
+      "disablebehaviorreturntypecheck": false,
       "disablecdsfileandlargeimage": false,
       "disableruntimepolicies": false,
       "dynamicschema": false,
@@ -42,9 +43,7 @@
       "enableeditcacherefreshfrequency": false,
       "enableeditinmcs": false,
       "enableexcelonlinebusinessv2connector": true,
-      "enableexperimentaldataverseoffline": true,
       "enableideaspanel": true,
-      "enablelargefilesindataverseoffline": false,
       "enablelegacybarcodescanner": false,
       "enableonstart": true,
       "enableonstartnavigate": false,
@@ -118,13 +117,13 @@
     "Id": "0b5f167a-bebf-476e-af76-93e6e3463fd7",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "CNC Part Database - Homepage Branch",
+    "Name": "CNC Part Database - Show Page Branch",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "CNC Part Database - Homepage Branch",
+    "AppName": "CNC Part Database - Show Page Branch",
     "BackgroundColor": "rgba(230, 230, 230, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",

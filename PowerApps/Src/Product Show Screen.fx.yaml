@@ -1,8 +1,19 @@
 "'Product Show Screen' As screen.'autoLayout_HeaderFooter_ver1.0'":
+    OnVisible: =
 
-    IndexPageContainer_1 As groupContainer.verticalAutoLayoutContainer:
+    InfoHalf As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =1
         Fill: =RGBA(122, 191, 255, 1)
-        Height: =266.80
+        Height: =1266
+        Width: =648
+        X: =120
+        Y: =100
+        ZIndex: =1
+
+    ShowPageContainer As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(122, 191, 255, 1)
+        Height: =ShowHeaderContainer.Height
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
@@ -10,9 +21,9 @@
         PaddingLeft: =0.00
         Width: =Parent.Width
         Y: =0.00
-        ZIndex: =1
+        ZIndex: =2
 
-        HeaderContainer_1 As groupContainer.horizontalAutoLayoutContainer:
+        ShowHeaderContainer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(214, 221, 224, 1)
             FillPortions: =0
@@ -44,15 +55,15 @@
                 Height: =100.05
                 PaddingBottom: =6.67
                 PaddingLeft: =20.01
-                Size: =32.02
+                Size: =25
                 Text: ="C&D Plastics Cold Form Setup Tool"
                 Y: =0.00
                 ZIndex: =2
 
-        ProductsContainer_1 As groupContainer.verticalAutoLayoutContainer:
+        BendsContainer As groupContainer.verticalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(40, 134, 222, 1)
-            Height: =266.80
+            Height: =1165.90
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -63,155 +74,251 @@
             RadiusBottomRight: =8
             RadiusTopLeft: =8
             RadiusTopRight: =8
-            Y: =0.00
+            Y: =100.05
             ZIndex: =3
 
-            "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
-                DelayItemLoading: =true
-                Height: =767.04
-                Items: =Filter(Steps, Product.prodName = selected_product.prodName)
-                Layout: =Layout.Vertical
-                LayoutMinHeight: =287
-                LayoutMinWidth: =320
-                LoadingSpinner: =LoadingSpinner.Data
-                TemplatePadding: =0.00
-                TemplateSize: =138.73
-                Y: =0.00
+    SidebarContainer As groupContainer.horizontalAutoLayoutContainer:
+        BorderThickness: =1
+        Height: =1266
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =120
+        Y: =100
+        ZIndex: =3
+
+        ShowBackButton As button:
+            AlignInContainer: =AlignInContainer.Center
+            Height: =100
+            OnSelect: |-
+                =Set(selected_bend, Blank());
+                
+                Set(bend_image, Blank());
+                
+                Navigate('Product Index Screen', ScreenTransition.Cover);
+            Size: =27
+            Text: ="Back"
+            ZIndex: =1
+
+        "BendContainer As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DelayItemLoading: =true
+            Items: =Filter(Steps, Product.prodName = selected_product.prodName)
+            Layout: =Layout.Vertical
+            LayoutMinHeight: =287
+            LayoutMinWidth: =320
+            LoadingSpinner: =LoadingSpinner.Data
+            OnSelect: =Set(selected_bend, ThisItem); Set(bend_image, ThisItem.img0)
+            TemplatePadding: =0
+            TemplateSize: =100
+            Width: =Parent.Width
+            ZIndex: =3
+
+            BendName As label:
+                FontWeight: =If(ThisItem.IsSelected And Not(IsBlank(selected_bend)), FontWeight.Semibold, FontWeight.Normal)
+                Height: =45
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =32
+                Text: =ThisItem.setupOrder
+                VerticalAlign: =VerticalAlign.Top
+                Width: =101
+                X: =(Parent.X + InfoHalf.X)/2.5
+                Y: =27
                 ZIndex: =1
 
-                Image1 As image:
-                    Height: =96.05
-                    Image: =ThisItem.img0
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0.00
-                    PaddingLeft: =0.00
-                    RadiusBottomLeft: =8
-                    RadiusBottomRight: =8
-                    RadiusTopLeft: =8
-                    RadiusTopRight: =8
-                    Width: =72
-                    X: =16
-                    Y: =21.34
-                    ZIndex: =1
+            SelectRect As rectangle:
+                Height: =Parent.TemplateHeight
+                OnSelect: =Select(Parent)
+                Visible: =ThisItem.IsSelected And Not(IsBlank(selected_bend))
+                Width: =4
+                ZIndex: =4
 
-                Title1 As label:
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                    Height: =33.62
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0.00
-                    PaddingLeft: =0.00
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =18.68
-                    Text: =ThisItem.setupName
-                    VerticalAlign: =VerticalAlign.Top
-                    Width: =Parent.TemplateWidth - 173
-                    X: =103
-                    Y: =38.15
-                    ZIndex: =2
+    BendProdTitle As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =71
+        Size: =40
+        Text: =selected_product.prodName
+        Width: =341
+        X: =273
+        Y: =121
+        ZIndex: =4
 
-                Subtitle1 As label:
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                    Height: =30.68
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0.00
-                    PaddingLeft: =0.00
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =16.01
-                    Text: =ThisItem.Backstop
-                    VerticalAlign: =VerticalAlign.Top
-                    Width: =58
-                    X: =248
-                    Y: =40.02
-                    ZIndex: =3
+    BendTitle As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =71
+        Size: =32
+        Text: =selected_bend.setupName
+        Width: =320
+        X: =134
+        Y: =211
+        ZIndex: =5
 
-                NextArrow1 As icon.ChevronRight:
-                    AccessibleLabel: =Self.Tooltip
-                    Color: =RGBA(166, 166, 166, 1)
-                    Height: =66.70
-                    Icon: =Icon.ChevronRight
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =21.34
-                    PaddingLeft: =21.34
-                    PaddingRight: =16
-                    PaddingTop: =16
-                    Tooltip: ="View item details"
-                    Width: =50
-                    X: =Parent.TemplateWidth - Self.Width - 12
-                    Y: =36.02
-                    ZIndex: =4
+    StatHalf As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =1
+        Fill: =RGBA(166, 215, 153, 1)
+        Height: =(Parent.Height - ShowHeaderContainer.Height) / 2
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =648
+        X: =120
+        Y: =734
+        ZIndex: =6
 
-                Separator1 As rectangle:
-                    Height: =10.67
-                    OnSelect: =Select(Parent)
-                    Width: =Parent.TemplateWidth
-                    Y: =128.06
-                    ZIndex: =5
+    BendDetailsHeader As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =21
+        Text: |-
+            ="Details:"
+        Width: =112
+        X: =134
+        Y: =505
+        ZIndex: =7
 
-                Rectangle1 As rectangle:
-                    Height: =128.06
-                    OnSelect: =Select(Parent)
-                    Visible: =ThisItem.IsSelected
-                    Width: =4
-                    Y: =0.00
-                    ZIndex: =6
+    BendDetails As label:
+        FontWeight: =FontWeight.Lighter
+        Height: =162
+        Overflow: =Overflow.Scroll
+        Size: =21
+        Text: =If(IsBlank(selected_bend.setupDescription), selected_product.prodDescription, selected_bend.setupDescription)
+        Width: =615
+        X: =134
+        Y: =550
+        ZIndex: =8
 
-                Subtitle1_1 As label:
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                    Height: =30.68
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0.00
-                    PaddingLeft: =0.00
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =16.01
-                    Text: =ThisItem.BendTarget
-                    VerticalAlign: =VerticalAlign.Top
-                    Width: =58
-                    X: =466
-                    Y: =40.02
-                    ZIndex: =7
+    BendImage As image:
+        BorderThickness: =1
+        Height: =225
+        Image: =bend_image
+        ImagePosition: =ImagePosition.Fill
+        OnSelect: =
+        PaddingBottom: =0.00
+        PaddingLeft: =0.00
+        Width: =300
+        X: =294
+        Y: =285
+        ZIndex: =9
 
-                Subtitle1_2 As label:
-                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                    Height: =30.68
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0.00
-                    PaddingLeft: =0.00
-                    PaddingRight: =0
-                    PaddingTop: =0
-                    Size: =16.01
-                    Text: =ThisItem.'Bend Width'
-                    VerticalAlign: =VerticalAlign.Top
-                    Width: =58
-                    X: =357
-                    Y: =40.02
-                    ZIndex: =8
+    BendLeft As icon.BackArrow:
+        Icon: =Icon.ChevronLeft
+        OnSelect: |-
+            =If(BendImage.Image = selected_bend.img4, Set(bend_image, selected_bend.img3));
+            
+            If(BendImage.Image = selected_bend.img3, Set(bend_image, selected_bend.img2));
+            
+            If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img1));
+            
+            If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img0))
+        Visible: =If(Not(bend_image = selected_bend.img0) And Not(bend_image = selected_product.prodImg), true)
+        X: =219
+        Y: =365
+        ZIndex: =10
 
-                Image1_1 As image:
-                    Height: =96.05
-                    Image: =ThisItem.img1
-                    OnSelect: =Select(Parent)
-                    PaddingBottom: =0.00
-                    PaddingLeft: =0.00
-                    RadiusBottomLeft: =8
-                    RadiusBottomRight: =8
-                    RadiusTopLeft: =8
-                    RadiusTopRight: =8
-                    Width: =72
-                    X: =565
-                    Y: =16.01
-                    ZIndex: =9
+    BendRight As icon.BackArrow:
+        Icon: =Icon.ChevronRight
+        OnSelect: =If(BendImage.Image = selected_bend.img0, Set(bend_image, selected_bend.img1))
+        Visible: |
+            =If(BendImage.Image = selected_bend.img0, If(Not(IsBlank(selected_bend.img1)), true))
+            Or
+            If(BendImage.Image = selected_bend.img1, If(Not(IsBlank(selected_bend.img2)), true))
+        X: =603
+        Y: =365
+        ZIndex: =11
 
-    Button1 As button:
-        Height: =53.36
-        OnSelect: =Navigate('Product Index Screen', ScreenTransition.Cover)
-        PaddingBottom: =6.67
-        PaddingLeft: =6.67
-        Size: =20.01
-        Text: ="Back"
-        X: =16
-        Y: =688.34
-        ZIndex: =2
+    BendStatHeader As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =303
+        Italic: =true
+        Size: =30
+        Text: |-
+            ="Backstop [in]
+            
+            Bend Width [in]
+            
+            Bend Target [deg]"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =349
+        X: =134
+        Y: =781
+        ZIndex: =12
+
+    BackstopInfo As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =30
+        Text: =selected_bend.setupBackstop
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =155
+        X: =549
+        Y: =811
+        ZIndex: =13
+
+    WidthInfo As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =30
+        Text: =selected_bend.setupBendWidth
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =155
+        X: =549
+        Y: =905
+        ZIndex: =14
+
+    BendTargetInfo As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =30
+        Text: =selected_bend.setupBendTarget
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =155
+        X: =555
+        Y: =1004
+        ZIndex: =15
+
+    BendStatFooter As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =303
+        Italic: =true
+        Size: =30
+        Text: |-
+            ="in
+            
+            in
+            
+            °
+            "
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =60
+        X: =708
+        Y: =780
+        ZIndex: =16
+
+    BendDepth As label:
+        FontWeight: =FontWeight.Bold
+        Height: =71
+        Italic: =true
+        Size: =32
+        Text: ="Blade Depth [in]"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =349
+        X: =134
+        Y: =1111
+        ZIndex: =17
+
+    CalibrateButton As button:
+        Height: =112
+        Size: =30
+        Text: ="Calibrate"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =615
+        X: =134
+        Y: =1216
+        ZIndex: =18
 

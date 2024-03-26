@@ -10,9 +10,9 @@
     "Name": "Steps",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
-      "cr33a_backstop": "Backstop",
-      "cr33a_bendtarget": "BendTarget",
-      "cr33a_bendwidth": "Bend Width",
+      "cr33a_backstop": "setupBackstop",
+      "cr33a_bendtarget": "setupBendTarget",
+      "cr33a_bendwidth": "setupBendWidth",
       "cr33a_description": "setupDescription",
       "cr33a_img0": "img0",
       "cr33a_img1": "img1",
