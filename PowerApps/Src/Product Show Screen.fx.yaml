@@ -131,12 +131,7 @@
             Separator2 As rectangle:
                 Height: =8
                 OnSelect: =Select(Parent)
-                Visible: |-
-                    =If(ThisItem.IsSelected, true)
-                    
-                    Or
-                    
-                    If(ThisItem.setupName = selected_bend.setupName, true)
+                Visible: =ThisItem.IsSelected
                 Width: =Parent.TemplateWidth
                 Y: =Parent.TemplateHeight - Self.Height
                 ZIndex: =3
@@ -144,12 +139,7 @@
             Rectangle2 As rectangle:
                 Height: =Parent.TemplateHeight - Separator2.Height
                 OnSelect: =Select(Parent)
-                Visible: |-
-                    =If(ThisItem.IsSelected, true)
-                    
-                    Or
-                    
-                    If(ThisItem.setupName = selected_bend.setupName, true)
+                Visible: =ThisItem.IsSelected
                 Width: =4
                 ZIndex: =4
 
@@ -188,6 +178,7 @@
         Size: =15
         Text: |-
             ="Details:"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
         Width: =100
         X: =168
         Y: =496
@@ -212,6 +203,7 @@
         OnSelect: =
         PaddingBottom: =0.00
         PaddingLeft: =0.00
+        Visible: =If(Not(IsBlank(bend_image)), true)
         Width: =280
         X: =308
         Y: =295
