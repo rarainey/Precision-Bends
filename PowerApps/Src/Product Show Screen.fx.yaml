@@ -6,8 +6,8 @@
         BorderThickness: =1
         Fill: =RGBA(122, 191, 255, 1)
         Height: =(Parent.Height - ShowHeaderContainer.Height) / 2
-        Width: =620
-        X: =148
+        Width: =648
+        X: =120
         Y: =100
         ZIndex: =1
 
@@ -82,7 +82,7 @@
         Height: =1266
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =148
+        Width: =120
         Y: =100
         ZIndex: =3
 
@@ -139,23 +139,25 @@
                 ZIndex: =4
 
     BendProdTitle As label:
+        Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =71
         Size: =40
         Text: =selected_product.prodName
         Width: =341
-        X: =168
-        Y: =144
+        X: =273
+        Y: =121
         ZIndex: =4
 
     BendTitle As label:
+        Align: =Align.Center
         FontWeight: =FontWeight.Semibold
         Height: =71
         Size: =32
         Text: =selected_bend.setupName
         Width: =320
-        X: =168
-        Y: =215
+        X: =283
+        Y: =208
         ZIndex: =5
 
     InfoHalf_1 As rectangle:
@@ -163,45 +165,46 @@
         BorderThickness: =1
         Fill: =RGBA(166, 215, 153, 1)
         Height: =(Parent.Height - ShowHeaderContainer.Height) / 2
-        Width: =620
-        X: =148
+        Width: =648
+        X: =120
         Y: =734
         ZIndex: =6
 
     BendDetailsHeader As label:
-        Height: =71
-        Size: =15
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =21
         Text: |-
             ="Details:"
         Visible: =If(Not(IsBlank(selected_bend)), true)
-        Width: =100
-        X: =168
-        Y: =496
+        Width: =112
+        X: =134
+        Y: =505
         ZIndex: =7
 
     BendDetails As label:
         FontWeight: =FontWeight.Lighter
         Height: =162
         Overflow: =Overflow.Scroll
-        Size: =16
+        Size: =21
         Text: =selected_bend.setupDescription
-        Width: =561
-        X: =168
+        Width: =615
+        X: =134
         Y: =550
         ZIndex: =8
 
     BendImage As image:
         BorderThickness: =1
-        Height: =210
+        Height: =225
         Image: =bend_image
         ImagePosition: =ImagePosition.Fill
         OnSelect: =
         PaddingBottom: =0.00
         PaddingLeft: =0.00
         Visible: =If(Not(IsBlank(bend_image)), true)
-        Width: =280
-        X: =308
-        Y: =295
+        Width: =300
+        X: =294
+        Y: =302
         ZIndex: =9
 
     BendLeft As icon.BackArrow:
@@ -215,8 +218,8 @@
             
             If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img0))
         Visible: =If(Not(bend_image = selected_bend.img0), true)
-        X: =229
-        Y: =359
+        X: =219
+        Y: =382
         ZIndex: =10
 
     BendRight As icon.BackArrow:
@@ -226,7 +229,7 @@
             =If(BendImage.Image = selected_bend.img0, If(Not(IsBlank(selected_bend.img1)), true))
             Or
             If(BendImage.Image = selected_bend.img1, If(Not(IsBlank(selected_bend.img2)), true))
-        X: =604
-        Y: =359
+        X: =603
+        Y: =382
         ZIndex: =11
 
