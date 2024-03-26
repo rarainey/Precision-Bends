@@ -87,14 +87,20 @@
 
         ShowBackButton As button:
             AlignInContainer: =AlignInContainer.Center
-            OnSelect: =Navigate('Product Index Screen', ScreenTransition.Cover)
+            OnSelect: |-
+                =Set(selected_bend, Blank());
+                
+                Navigate('Product Index Screen', ScreenTransition.Cover)
             Text: ="Back"
             ZIndex: =1
 
         "BendContainer As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+            AlignInContainer: =AlignInContainer.SetByContainer
             DelayItemLoading: =true
             Items: =Filter(Steps, Product.prodName = selected_product.prodName)
             Layout: =Layout.Vertical
+            LayoutMinHeight: =287
+            LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
             OnSelect: =Set(selected_bend, ThisItem); Set(bend_image, ThisItem.img0)
             TemplatePadding: =0
