@@ -94,8 +94,6 @@
                 
                 Set(bend_image, Blank());
                 
-                Reset(BendContainer);
-                
                 Navigate('Product Index Screen', ScreenTransition.Cover);
             Size: =27
             Text: ="Back"
@@ -131,10 +129,10 @@
                 Y: =27
                 ZIndex: =1
 
-            Rectangle2 As rectangle:
+            SelectRect As rectangle:
                 Height: =Parent.TemplateHeight
                 OnSelect: =Select(Parent)
-                Visible: =ThisItem.IsSelected
+                Visible: =ThisItem.IsSelected And Not(IsBlank(selected_bend))
                 Width: =4
                 ZIndex: =4
 
@@ -150,17 +148,16 @@
         ZIndex: =4
 
     BendTitle As label:
-        Align: =Align.Center
         FontWeight: =FontWeight.Semibold
         Height: =71
         Size: =32
         Text: =selected_bend.setupName
         Width: =320
-        X: =283
-        Y: =208
+        X: =134
+        Y: =211
         ZIndex: =5
 
-    InfoHalf_1 As rectangle:
+    StatHalf As rectangle:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =1
         Fill: =RGBA(166, 215, 153, 1)
@@ -204,7 +201,7 @@
         Visible: =If(Not(IsBlank(bend_image)), true)
         Width: =300
         X: =294
-        Y: =302
+        Y: =285
         ZIndex: =9
 
     BendLeft As icon.BackArrow:
@@ -219,7 +216,7 @@
             If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img0))
         Visible: =If(Not(bend_image = selected_bend.img0), true)
         X: =219
-        Y: =382
+        Y: =365
         ZIndex: =10
 
     BendRight As icon.BackArrow:
@@ -230,6 +227,123 @@
             Or
             If(BendImage.Image = selected_bend.img1, If(Not(IsBlank(selected_bend.img2)), true))
         X: =603
-        Y: =382
+        Y: =365
         ZIndex: =11
+
+    BendStatHeader As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =303
+        Italic: =true
+        Size: =30
+        Text: |-
+            ="Backstop [in]
+            
+            Bend Width [in]
+            
+            Bend Target [deg]"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =349
+        X: =134
+        Y: =781
+        ZIndex: =12
+
+    BackstopInfo As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =30
+        Text: =selected_bend.setupBackstop
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =155
+        X: =549
+        Y: =811
+        ZIndex: =13
+
+    WidthInfo As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =30
+        Text: =selected_bend.setupBendWidth
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =155
+        X: =549
+        Y: =905
+        ZIndex: =14
+
+    BendTargetInfo As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =30
+        Text: =selected_bend.setupBendTarget
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =155
+        X: =555
+        Y: =1004
+        ZIndex: =15
+
+    BendStatFooter As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =303
+        Italic: =true
+        Size: =30
+        Text: |-
+            ="in
+            
+            in
+            
+            °
+            "
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =60
+        X: =708
+        Y: =780
+        ZIndex: =16
+
+    BendTitle_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =71
+        Italic: =true
+        Size: =32
+        Text: ="Blade Depth [in]"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =349
+        X: =134
+        Y: =1111
+        ZIndex: =17
+
+    CalibrateButton As button:
+        Height: =112
+        Size: =30
+        Text: ="Calibrate"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =256
+        X: =134
+        Y: =1216
+        ZIndex: =18
+
+    NextButton As button:
+        Height: =112
+        OnSelect: |-
+            =If(
+                IsBlank(
+                LookUp(
+                Filter(Steps, Product.prodName = selected_product.prodName),
+                selected_bend.setupOrder = selected_bend.setupOrder+1)), 
+                Navigate('Product Index Screen'));
+            
+            If(
+                IsBlank(
+                LookUp(
+                Filter(Steps, Product.prodName = selected_product.prodName),
+                selected_bend.setupOrder = selected_bend.setupOrder+1)), 
+                Set(selected_bend, LookUp(Filter(Steps, Product.prodName = selected_product.prodName), selected_bend.setupOrder = selected_bend.setupOrder+1)));
+        Size: =30
+        Text: ="Next"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =256
+        X: =493
+        Y: =1216
+        ZIndex: =19
 
