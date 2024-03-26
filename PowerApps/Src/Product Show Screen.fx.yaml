@@ -101,7 +101,6 @@
 
         "BendContainer As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
             AlignInContainer: =AlignInContainer.SetByContainer
-            Default: =BendDefault
             DelayItemLoading: =true
             Items: =Filter(Steps, Product.prodName = selected_product.prodName)
             Layout: =Layout.Vertical
@@ -302,7 +301,7 @@
         Y: =780
         ZIndex: =16
 
-    BendTitle_1 As label:
+    BendDepth As label:
         FontWeight: =FontWeight.Bold
         Height: =71
         Italic: =true
@@ -319,35 +318,8 @@
         Size: =30
         Text: ="Calibrate"
         Visible: =If(Not(IsBlank(selected_bend)), true)
-        Width: =256
+        Width: =615
         X: =134
         Y: =1216
         ZIndex: =18
-
-    NextButton As button:
-        Height: =112
-        OnSelect: |-
-            =If(
-                IsBlank(
-                LookUp(
-                Filter(Steps, Product.prodName = selected_product.prodName),
-                setupOrder = selected_bend.setupOrder+1)), 
-                Navigate('Product Index Screen'));
-            
-            If(
-                Not(
-                IsBlank(
-                LookUp(
-                Filter(Steps, Product.prodName = selected_product.prodName),
-                setupOrder = selected_bend.setupOrder+1))), 
-                Set(BendDefault, LookUp(Filter(Steps, Product.prodName = selected_product.prodName), setupOrder = selected_bend.setupOrder+1));
-                Select(BendContainer);
-                Select(BendContainer))
-        Size: =30
-        Text: ="Next"
-        Visible: =If(Not(IsBlank(selected_bend)), true)
-        Width: =256
-        X: =493
-        Y: =1216
-        ZIndex: =19
 
