@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =
+    OnStart: =Collect(allProducts, Products)
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
