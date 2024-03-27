@@ -82,7 +82,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/27/2024 19:21:16",
+  "HeaderLastSavedDateTimeUTC": "03/27/2024 19:30:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -114,7 +114,6 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "allProducts": 19,
     "ComboBoxSample": 15,
     "Customers": 18,
     "Customers\\cr33a_customer_statecode": 6,
