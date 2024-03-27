@@ -213,7 +213,7 @@
             If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img1));
             
             If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img0))
-        Visible: =If(Not(bend_image = selected_bend.img0) And Not(bend_image = selected_product.prodImg), true)
+        Visible: =If(Not(bend_image = selected_bend.img0) And Not(bend_image = selected_product.prodImgPath), true)
         X: =219
         Y: =365
         ZIndex: =10
