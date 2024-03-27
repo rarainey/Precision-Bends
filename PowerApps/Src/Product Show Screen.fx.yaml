@@ -267,7 +267,7 @@
         Visible: =If(Not(IsBlank(selected_bend)), true)
         Width: =155
         X: =549
-        Y: =905
+        Y: =907
         ZIndex: =14
 
     BendTargetInfo As label:
@@ -284,7 +284,7 @@
 
     BendStatFooter As label:
         FontWeight: =FontWeight.Semibold
-        Height: =303
+        Height: =326
         Italic: =true
         Size: =30
         Text: |-
@@ -293,11 +293,12 @@
             in
             
             °
-            "
+            
+            in"
         Visible: =If(Not(IsBlank(selected_bend)), true)
-        Width: =60
-        X: =708
-        Y: =780
+        Width: =58
+        X: =704
+        Y: =822
         ZIndex: =16
 
     BendDepth As label:
@@ -321,4 +322,16 @@
         X: =134
         Y: =1216
         ZIndex: =18
+
+    BendTargetInfo_1 As label:
+        Align: =Align.Right
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =30
+        Text: =selected_bend.setupBendTarget
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =155
+        X: =549
+        Y: =1094
+        ZIndex: =19
 

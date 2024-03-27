@@ -104,7 +104,7 @@
                     OnSelect: |-
                         =Set(selected_product, ThisItem); 
                         
-                        Set(bend_image, ThisItem.prodImg);
+                        Set(bend_image, ThisItem.prodImgPath);
                         
                         Navigate('Product Show Screen', ScreenTransition.CoverRight); 
                     PaddingBottom: =0.00
@@ -122,7 +122,7 @@
                 ProductImage As image:
                     BorderThickness: =1
                     Height: =210
-                    Image: =ThisItem.prodImg
+                    Image: =ThisItem.prodImgPath
                     ImagePosition: =ImagePosition.Fill
                     OnSelect: =Select(ProductTitle)
                     PaddingBottom: =0.00

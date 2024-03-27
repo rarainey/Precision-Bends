@@ -2150,7 +2150,7 @@
         {
           "Category": "Data",
           "PropertyName": "Image",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -3412,7 +3412,7 @@
         {
           "Category": "Behavior",
           "PropertyName": "OnSelect",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "titleLabelStyle_galleryLayouts_ver5",
