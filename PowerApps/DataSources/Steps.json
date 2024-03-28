@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr33a_step",
-    "MaxGetRowsCount": 500,
     "Name": "Steps",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

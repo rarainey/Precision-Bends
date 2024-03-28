@@ -2,7 +2,7 @@
   "DatasetName": "default.cds",
   "EntityName": "Products",
   "environmentVariableName": "",
-  "InstanceUrl": "https://orga1cf7c09.crm.dynamics.com/",
+  "InstanceUrl": "https://orga1cf7c09.crm.dynamics.com",
   "LocalReferenceDSJson": {
     "entitySetName": "cr33a_products",
     "logicalName": "cr33a_product"

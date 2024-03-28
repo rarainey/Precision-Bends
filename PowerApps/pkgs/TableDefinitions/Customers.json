@@ -2,11 +2,7 @@
   "DatasetName": "default.cds",
   "EntityName": "Customers",
   "environmentVariableName": "",
-  "InstanceUrl": "https://orga1cf7c09.crm.dynamics.com/",
-  "LocalReferenceDSJson": {
-    "entitySetName": "cr33a_customers",
-    "logicalName": "cr33a_customer"
-  },
+  "InstanceUrl": "https://orga1cf7c09.crm.dynamics.com",
   "state": "Configured",
   "TableDefinition": {
     "BooleanOptionSetAttribute": "{\"@odata.context\":\"https://orga1cf7c09.crm.dynamics.com/api/data/v9.0/$metadata#EntityDefinitions('cr33a_customer')/Attributes/Microsoft.Dynamics.CRM.BooleanAttributeMetadata(MetadataId,LogicalName,SchemaName,DisplayName,OptionSet())\",\"value\":[]}",
