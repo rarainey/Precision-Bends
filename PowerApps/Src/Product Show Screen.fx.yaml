@@ -107,7 +107,49 @@
             LayoutMinHeight: =287
             LayoutMinWidth: =320
             LoadingSpinner: =LoadingSpinner.Data
-            OnSelect: =Set(selected_bend, ThisItem); Set(bend_image, ThisItem.img0)
+            OnSelect: |-
+                =Set(selected_bend, ThisItem); 
+                
+                If(selected_product.thick = 0.068, Set(blade_depth, 
+                        Round( (
+                        LookUp('Material Data', id = 1, 'formula(0.068)') *
+                        Power(selected_bend.setupBendTarget, 3) +
+                        LookUp('Material Data', id = 2, 'formula(0.068)') *
+                        Power(selected_bend.setupBendTarget, 2) +
+                        LookUp('Material Data', id = 3, 'formula(0.068)') *
+                        selected_bend.setupBendTarget +
+                        LookUp('Material Data', id = 4, 'formula(0.068)')
+                        ), 2)
+                    )
+                );
+                
+                If(selected_product.thick = 0.122, Set(blade_depth, 
+                        Round( (
+                        LookUp('Material Data', id = 1, 'formula(0.122)') *
+                        Power(selected_bend.setupBendTarget, 3) +
+                        LookUp('Material Data', id = 2, 'formula(0.122)') *
+                        Power(selected_bend.setupBendTarget, 2) +
+                        LookUp('Material Data', id = 3, 'formula(0.122)') *
+                        selected_bend.setupBendTarget +
+                        LookUp('Material Data', id = 4, 'formula(0.122)')
+                        ), 2)
+                    )
+                );
+                
+                If(selected_product.thick = 0.176, Set(blade_depth, 
+                        Round( (
+                        LookUp('Material Data', id = 1, 'formula(0.176)') *
+                        Power(selected_bend.setupBendTarget, 3) +
+                        LookUp('Material Data', id = 2, 'formula(0.176)') *
+                        Power(selected_bend.setupBendTarget, 2) +
+                        LookUp('Material Data', id = 3, 'formula(0.176)') *
+                        selected_bend.setupBendTarget +
+                        LookUp('Material Data', id = 4, 'formula(0.176)')
+                        ), 2)
+                    )
+                );
+                
+                Set(bend_image, ThisItem.img0)
             TemplatePadding: =0
             TemplateSize: =100
             Width: =Parent.Width
@@ -213,7 +255,7 @@
             If(BendImage.Image = selected_bend.img2, Set(bend_image, selected_bend.img1));
             
             If(BendImage.Image = selected_bend.img1, Set(bend_image, selected_bend.img0))
-        Visible: =If(Not(bend_image = selected_bend.img0) And Not(bend_image = selected_product.prodImg), true)
+        Visible: =If(Not(bend_image = selected_bend.img0) And Not(bend_image = selected_product.prodImgPath), true)
         X: =219
         Y: =365
         ZIndex: =10
@@ -292,13 +334,11 @@
             
             in
             
-            °
-            
-            in"
+            °"
         Visible: =If(Not(IsBlank(selected_bend)), true)
         Width: =58
         X: =704
-        Y: =822
+        Y: =769
         ZIndex: =16
 
     BendDepth As label:
@@ -323,15 +363,28 @@
         Y: =1216
         ZIndex: =18
 
-    BendTargetInfo_1 As label:
+    BladeDepthInfo As label:
         Align: =Align.Right
         FontWeight: =FontWeight.Semibold
         Height: =54
         Size: =30
-        Text: =selected_bend.setupBendTarget
+        Text: |
+            =blade_depth
         Visible: =If(Not(IsBlank(selected_bend)), true)
         Width: =155
-        X: =549
-        Y: =1094
+        X: =557
+        Y: =1119
         ZIndex: =19
+
+    DepthStatFooter As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =326
+        Italic: =true
+        Size: =30
+        Text: ="in"
+        Visible: =If(Not(IsBlank(selected_bend)), true)
+        Width: =58
+        X: =710
+        Y: =983
+        ZIndex: =20
 

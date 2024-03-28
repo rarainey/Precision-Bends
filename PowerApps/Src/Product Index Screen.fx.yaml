@@ -144,6 +144,16 @@
                     Y: =342
                     ZIndex: =4
 
+            ButtonCanvas1 As Button:
+                DisplayMode: =DisplayMode.Edit
+                Height: =32
+                LayoutMinHeight: =32
+                LayoutMinWidth: =96
+                Width: =96
+                X: =0
+                Y: =0
+                ZIndex: =3
+
         FooterContainer As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             Fill: =RGBA(214, 221, 224, 1)
