@@ -117,13 +117,13 @@
     "Id": "0b5f167a-bebf-476e-af76-93e6e3463fd7",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "CNC Part Database - Show Page Branch",
+    "Name": "CNC Part Database - Blade Depth Calculation",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "CNC Part Database - Show Page Branch",
+    "AppName": "CNC Part Database - Blade Depth Calculation",
     "BackgroundColor": "rgba(230, 230, 230, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",
